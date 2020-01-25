@@ -1,0 +1,90 @@
+// Пехота
+private _AF_InfPool_0 = 
+[
+	"O_G_engineer_F",
+	"O_G_medic_F",
+	"O_G_officer_F",
+	"O_G_Soldier_A_F",
+	"O_G_Soldier_AR_F",
+	"O_G_Soldier_exp_F",
+	"O_G_Soldier_F",
+	"O_G_Soldier_GL_F",
+	"O_G_Soldier_LAT_F",
+	"O_G_Soldier_lite_F",
+	"O_G_Soldier_M_F",
+	"O_G_Soldier_SL_F",
+	"O_G_Soldier_TL_F"
+];
+private _AF_InfPool_1 = 
+[
+	"rhs_vdv_mflora_sergeant",
+	"rhs_vdv_mflora_rifleman",
+	"rhs_vdv_mflora_machinegunner",
+	"rhs_vdv_mflora_grenadier",
+	"rhs_vdv_mflora_marksman",
+	"rhs_vdv_mflora_LAT",
+	"rhs_vdv_mflora_RShG2",
+	"rhs_vdv_mflora_grenadier_rpg",
+	"rhs_vdv_mflora_engineer",
+	"rhs_vdv_mflora_medic",
+	"rhs_vdv_mflora_aa"
+];
+private _AF_InfPool_2 = 
+[
+	"rhsgref_ins_g_spotter",
+	"rhsgref_ins_g_squadleader",
+	"rhsgref_ins_g_grenadier_rpg",
+	"rhsgref_ins_g_pilot",
+	"rhsgref_ins_g_medic",
+	"rhsgref_ins_g_specialist_aa",
+	"rhsgref_ins_g_rifleman_akm",
+	"rhsgref_ins_g_rifleman_aksu",
+	"rhsgref_ins_g_rifleman_aks74",
+	"rhsgref_ins_g_rifleman",
+	"rhsgref_ins_g_grenadier",
+	"rhsgref_ins_g_rifleman_RPG26",
+	"rhsgref_ins_g_militiaman_mosin",
+	"rhsgref_ins_g_machinegunner",
+	"rhsgref_ins_g_engineer",
+	"rhsgref_ins_g_commander",
+	"rhsgref_ins_g_saboteur",
+	"rhsgref_ins_g_sniper"
+];
+private _AF_InfPool_3 = 
+[
+	"CUP_O_TK_INS_Soldier_AA",
+	"CUP_O_TK_INS_Soldier_AR",
+	"CUP_O_TK_INS_Guerilla_Medic",
+	"CUP_O_TK_INS_Soldier_MG",
+	"CUP_O_TK_INS_Bomber",
+	"CUP_O_TK_INS_Mechanic",
+	"CUP_O_TK_INS_Soldier_GL",
+	"CUP_O_TK_INS_Soldier",
+	"CUP_O_TK_INS_Soldier_FNFAL",
+	"CUP_O_TK_INS_Soldier_Enfield",
+	"CUP_O_TK_INS_Soldier_AAT",
+	"CUP_O_TK_INS_Soldier_AT",
+	"CUP_O_TK_INS_Sniper",
+	"CUP_O_TK_INS_Soldier_TL",
+	"CUP_O_TK_INS_Commander",
+	"CUP_O_TK_SpecOps_MG",
+	"CUP_O_TK_SpecOps",
+	"CUP_O_TK_SpecOps_TL",
+	"CUP_I_TK_GUE_Soldier_AA",
+	"CUP_I_TK_GUE_Soldier_AR",
+	"CUP_I_TK_GUE_Guerilla_Medic",
+	"CUP_I_TK_GUE_Demo",
+	"CUP_I_TK_GUE_Soldier",
+	"CUP_I_TK_GUE_Soldier_AK_47S",
+	"CUP_I_TK_GUE_Soldier_HAT",
+	"CUP_I_TK_GUE_Guerilla_Enfield",
+	"CUP_I_TK_GUE_Soldier_GL",
+	"CUP_I_TK_GUE_Soldier_M16A2",
+	"CUP_I_TK_GUE_Soldier_AAT",
+	"CUP_I_TK_GUE_Soldier_AT",
+	"CUP_I_TK_GUE_Sniper",
+	"CUP_I_TK_GUE_Mechanic",
+	"CUP_I_TK_GUE_Soldier_MG",
+	"CUP_I_TK_GUE_Soldier_TL",
+	"CUP_I_TK_GUE_Commander"
+];

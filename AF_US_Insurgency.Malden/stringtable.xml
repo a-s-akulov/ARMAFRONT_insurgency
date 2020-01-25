@@ -1,0 +1,1664 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Package name="ZeroAinzLoadOut">   
+            <Key ID="zlo_service_name">
+				<Original>Service</Original>
+				<English>Service</English>
+				<Italian>Servizio</Italian>
+				<Russian>Cервис</Russian>
+			</Key>
+			<Key ID="zlo_apply_text">
+				<Original>Apply</Original>
+				<English>Apply</English>
+				<Italian>Aplica</Italian>
+				<Russian>Применить</Russian>
+			</Key>
+			<Key ID="zlo_change_skin_text">
+				<Original>Change skin :</Original>
+				<English>Change skin :</English>
+				<Italian>Cambia skin :</Italian>
+				<Russian>Сменить скин :</Russian>
+			</Key>
+			<Key ID="zlo_ammo_text">
+				<Original>Rearm</Original>
+				<English>Rearm</English>
+				<Italian>Riarmo</Italian>
+				<Russian>Пополнить БК</Russian>
+			</Key>
+			<Key ID="zlo_refuel_text">
+				<Original>Refuel</Original>
+				<English>Refuel</English>
+				<Italian>Pieno</Italian>
+				<Russian>Заправить</Russian>
+			</Key>
+			<Key ID="zlo_repair_text">
+				<Original>Repair</Original>
+				<English>Repair</English>
+				<Italian>Riparare</Italian>
+				<Russian>Починить</Russian>
+			</Key>
+			<Key ID="zlo_preset_text">
+				<Original>Preset :</Original>
+				<English>Preset :</English>
+				<Italian>Predefiniti :</Italian>
+				<Russian>Готовый набор :</Russian>
+			</Key>
+			<Key ID="zlo_mirror_text">
+				<Original>Mirror</Original>
+				<English>Mirror</English>
+				<Italian>Spechio</Italian>
+				<Russian>Отзеркалить</Russian>
+			</Key>
+			<Key ID="zlo_windowName_text">
+				<Original>Vehicle maintenance</Original>
+				<English>Vehicle maintenance</English>
+				<Italian>Manutenzione e rifornimento veicolo</Italian>
+				<Russian>Обслуживание техники</Russian>
+			</Key>
+			<Key ID="zlo_fuel_text">
+				<Original>Fuel</Original>
+				<English>Fuel</English>
+				<Italian>Serbatoio</Italian>
+				<Russian>Топливо</Russian>
+			</Key>
+			<Key ID="zlo_damage_text">
+				<Original>Damage</Original>
+				<English>Damage</English>
+				<Italian>Danno</Italian>
+				<Russian>Урон</Russian>
+			</Key>
+			<Key ID="zlo_empty_text">
+				<Original>Empty</Original>
+				<English>Empty</English>
+				<Italian>Vuoto</Italian>
+				<Russian>Пустой</Russian>
+			</Key>
+			<Key ID="zlo_camo_empty_text">
+				<Original>Default</Original>
+				<English>Default</English>
+				<Italian>Predefinita</Italian>
+				<Russian>Дефолт</Russian>
+			</Key>
+			<Key ID="zlo_spresets_text">
+				<Original>Presets</Original>
+				<English>Presets</English>
+				<Italian>Presets</Italian>
+				<Russian>Наборы</Russian>
+			</Key>
+			<Key ID="zlo_save_text">
+				<Original>Save</Original>
+				<English>Save</English>
+				<Italian>Salva</Italian>
+				<Russian>Сохр.</Russian>
+			</Key>
+			<Key ID="zlo_load_text">
+				<Original>Load</Original>
+				<English>Load</English>
+				<Italian>Apri</Italian>
+				<Russian>Загрузить</Russian>
+			</Key>
+			<Key ID="zlo_delete_text">
+				<Original>Delete</Original>
+				<English>Delete</English>
+				<Italian>Cancella</Italian>
+				<Russian>Удалить</Russian>
+			</Key>
+			<Key ID="zlo_emptyspace_text">
+				<Original>Type the name before saving</Original>
+				<English>Type the name before saving</English>
+				<Italian>Scrivere il nome prima</Italian>
+				<Russian>Напишите имя в поле</Russian>
+			</Key>
+			<Key ID="zlo_pres1_text">
+				<Original>Preset</Original>
+				<English>Preset</English>
+				<Italian>Preset</Italian>
+				<Russian>Набор</Russian>
+			</Key>
+			<Key ID="zlo_pres2_text">
+				<Original>was deleted!</Original>
+				<English>was deleted!</English>
+				<Italian>è stato cancellato!</Italian>
+				<Russian>был удалён!</Russian>
+			</Key>
+			<Key ID="zlo_exitesc_text">
+				<Original>Maintenance was canceled</Original>
+				<English>Maintenance was canceled</English>
+				<Italian>La Manutenzione è anullata</Italian>
+				<Russian>Техническое обслуживание отменено</Russian>
+			</Key>
+			<Key ID="zlo_presetloaded_text">
+				<Original>Selected preset was loaded</Original>
+				<English>Selected preset was loaded</English>
+				<Italian>Il preset scelto è stato caricato</Italian>
+				<Russian>Выбранный набор загружен</Russian>
+			</Key>
+			<Key ID="zlo_saved_text">
+				<Original>was saved</Original>
+				<English>was saved</English>
+				<Italian>è stato salvato</Italian>
+				<Russian>был сохранён</Russian>
+			</Key>
+			<Key ID="zlo_wait_text">
+				<Original>Waiting time before the end of maintenance</Original>
+				<English>Waiting time before the end of maintenance</English>
+				<Italian>è stato salvato</Italian>
+				<Russian>Время ожидания до окончания обслуживания</Russian>
+			</Key>
+			<Key ID="zlo_sec_text">
+				<Original>sec.</Original>
+				<English>sec.</English>
+				<Italian>sec.</Italian>
+				<Russian>Сек.</Russian>
+			</Key>
+			<Key ID="zlo_serviceeeady_text">
+				<Original>Vehicle is Ready</Original>
+				<English>Vehicle is Ready</English>
+				<Italian>La Manutenzione è finita</Italian>
+				<Russian>Техническое обслуживание завершено</Russian>
+			</Key>
+			<Key ID="zlo_helptext_text">
+				<Original>Info</Original>
+				<English>Info</English>
+				<Italian>Info</Italian>
+				<Russian>Справка</Russian>
+			</Key>
+</Package>
+
+<Project name="CH View Distance">
+    <Package name="Main">
+        <Key ID="STR_chvd_title">
+            <Original>View Distance Settings</Original>
+            <Russian>Настройки Дальности Обзора</Russian>
+            <German>Sichtweiten Einstellung</German>
+            <French>Conf. de la distance de vue</French>
+        </Key>
+        <Key ID="STR_chvd_foot">
+            <Original>Infantry:</Original>
+            <Russian>Пешком:</Russian>
+            <German>FUß:</German>
+			<French>Pied:</French>
+        </Key>
+        <Key ID="STR_chvd_car">
+            <Original>Vehicle:</Original>
+            <Russian>Машина:</Russian>
+            <German>Fahrzeug:</German>
+			<French>Voiture:</French>
+        </Key>
+        <Key ID="STR_chvd_air">
+            <Original>Aircraft:</Original>
+            <Russian>Воздух:</Russian>
+            <German>Flugzeug:</German>
+			<French>Airs:</French>
+        </Key>
+		<Key ID="STR_chvd_UAV">
+            <Original>Drone:</Original>
+            <Russian>БПА:</Russian>
+        </Key>
+        <Key ID="STR_chvd_object">
+            <Original>Objects:</Original>
+            <Russian>Объекты:</Russian>
+            <German>Objekt:</German>
+			<French>Objet:</French>
+        </Key>
+        <Key ID="STR_chvd_grass">
+            <Original>Grass settings:</Original>
+            <Russian>Трава:</Russian>
+        </Key>
+        <Key ID="STR_chvd_sync">
+            <Original>Sync with view:</Original>
+            <Russian>Синхронизировать:</Russian>
+        </Key>
+		<Key ID="STR_chvd_hide">
+            <Original>Hide</Original>
+            <Russian>Скрыть</Russian>
+        </Key>
+		<Key ID="STR_chvd_SaveName">
+            <Original>SAVE NAME</Original>
+            <Russian>ИМЯ СЛОТА</Russian>
+        </Key>
+		<Key ID="STR_chvd_save">
+            <Original>Save</Original>
+            <Russian>Сохранить</Russian>
+        </Key>
+		<Key ID="STR_chvd_addaction">
+            <Original>Settings</Original>
+            <Russian>Настройки</Russian>
+        </Key>
+		<Key ID="STR_chvd_saves">
+            <Original>Save/Load</Original>
+            <Russian>Сохранить/Загрузить</Russian>
+        </Key>
+		<Key ID="STR_chvd_saveManager">
+            <Original>Saved preset</Original>
+            <Russian>Сохранённые настройки</Russian>
+        </Key>
+        <Key ID="STR_chvd_low">
+            <Original>Low</Original>
+            <Russian>Низкая</Russian>
+            <German>Niedrig</German>
+			<French>Bas</French>
+        </Key>
+        <Key ID="STR_chvd_standart">
+            <Original>Standard</Original>
+            <Russian>Стандартная</Russian>
+            <German>Standart</German>
+			<French>Standart</French>
+        </Key>
+        <Key ID="STR_chvd_high">
+            <Original>High</Original>
+            <Russian>Высокая</Russian>
+            <German>Hoch</German>
+			<French>Elevé</French>
+        </Key>
+		<Key ID="STR_chvd_TooltipInf">
+            <Original>View Distance while on foot</Original>
+            <Russian>Дальность видимости пешком</Russian>
+        </Key>
+		<Key ID="STR_chvd_TooltipCar">
+            <Original>View distance while in a ground vehicle</Original>
+            <Russian>Дальность видимости в наземном транспорте</Russian>
+        </Key>
+		<Key ID="STR_chvd_TooltipAir">
+            <Original>View distance while in an aircraft</Original>
+            <Russian>Дальность видимости в воздушном транспорте</Russian>
+        </Key>
+		<Key ID="STR_chvd_TooltipUAV">
+            <Original>View distance while operating a UAV/UGV</Original>
+            <Russian>Дальность видимости в БПА</Russian>
+        </Key>
+		<Key ID="STR_chvd_TooltipObj">
+            <Original>Object rendering distance</Original>
+            <Russian>Дальность отображения объектов</Russian>
+        </Key>
+        <Key ID="STR_chvd_openSettings">
+            <Original>settings</Original>
+            <Russian>настройки</Russian>
+            <German>settings</German>
+			<French>configuration</French>
+        </Key>
+        <Key ID="STR_chvd_objViewDistance">
+            <Original>Objects settings:</Original>
+            <Russian>Настройки объектов:</Russian>
+        </Key>
+		<Key ID="STR_chvd_saveslot">
+            <Original>Save slot</Original>
+            <Russian>Пустой слот</Russian>
+        </Key>
+    </package>
+</Project>
+
+<Project name="BeeRepair Sctipts">
+<Key ID="Bee_Repair_Table">
+	<Original>Repair</Original>
+	<Russian>Тех. Обслуживание</Russian>
+	<Italian>Ripara</Italian>
+</Key>
+
+<Key ID="Bee_Repair_Start">
+	<Original>Repairing in 60 sec...</Original>
+	<Russian>Тех. Обслуживание 60 сек...</Russian>
+	<Italian>Riparazione Avviata 60 sek...</Italian>
+</Key>
+
+<Key ID="Bee_Repair_END">
+	<Original>Repair Completed</Original>
+	<Russian>Транспорт Готов</Russian>
+	<Italian>Riparazione Finita</Italian>
+</Key>
+</Project>
+
+<Project name="Taw vd">
+<Key ID="Tow_High_Distance">
+	<Original>The tow ropes are too short. Move vehicle closer.</Original>
+	<Russian>Буксировочный трос не дотягивается.</Russian>
+</Key>
+
+<Key ID="Tow_To_Locked">
+	<Original>Cannot attach tow ropes to locked vehicle.</Original>
+	<Russian>Нельзя прикрепить буксирный трос к запертой технике.</Russian>
+</Key>
+
+<Key ID="Tow_In_Safe_Zone">
+	<Original>Cannot attach tow ropes in safe zone.</Original>
+	<Russian>Нельзя прикрепить буксирный трос в безопасной зоне.</Russian>
+</Key>
+
+<Key ID="Tow_Take_Locked">
+	<Original>Cannot take tow ropes from locked vehicle.</Original>
+	<Russian>Нельзя взять трос из запертой техники.</Russian>
+</Key>
+
+<Key ID="Tow_Take_Safe_Zone">
+	<Original>Cannot take tow ropes in safe zone.</Original>
+	<Russian>Нельзя взять трос в безопасной зоне.</Russian>
+</Key>
+
+<Key ID="Tow_Put_Locked">
+	<Original>Cannot put away tow ropes in locked vehicle.</Original>
+	<Russian>Нельзя убрать трос в запертую технику.</Russian>
+</Key>
+
+<Key ID="Tow_Put_Safe_Zone">
+	<Original>Cannot put away tow ropes in safe zone.</Original>
+	<Russian>Нельзя положить трос в безопасной зоне.</Russian>
+</Key>
+
+<Key ID="Tow_PickUp_Locked">
+	<Original>Cannot take tow ropes from locked vehicle.</Original>
+	<Russian>Нельзя подобрать трос из запертой техники.</Russian>
+</Key>
+
+<Key ID="Tow_PickUp_Safe_Zone">
+	<Original>Cannot pick up tow ropes in safe zone.</Original>
+	<Russian>Нельзя подобрать трос в безопасной зоне.</Russian>
+</Key>
+
+<Key ID="Deploy_Tow">
+	<Original>Deploy Tow Ropes</Original>
+	<Russian>Подготовить буксировочный трос</Russian>
+</Key>
+
+<Key ID="Destroy_Tow">
+	<Original>Put Away Tow Ropes</Original>
+	<Russian>Убрать трос</Russian>
+</Key>
+
+<Key ID="Attach_Tow">
+	<Original>Attach Tow Ropes</Original>
+	<Russian>Прикрепить трос</Russian>
+</Key>
+
+<Key ID="Drop_Tow">
+	<Original>Drop Tow Ropes</Original>
+	<Russian>Бросить буксировочный трос</Russian>
+</Key>
+
+<Key ID="PickUp_Tow">
+	<Original>Pick up Tow Ropes</Original>
+	<Russian>Подобрать буксировочный трос</Russian>
+</Key>
+</Project>
+
+<Package name="KatletkaSlots">
+  <Key ID="SlotsInBattle">
+		<Original>TO BATTLE!</Original>
+		<English>TO BATTLE!</English>
+		<Russian>В БОЙ!</Russian>
+	</Key>
+  <Key ID="SlotsCancel">
+		<Original>Cancel</Original>
+		<English>Cancel</English>
+		<Russian>Отмена</Russian>
+	</Key>
+	<Key ID="SlotsBTRSHead">
+		<Original>Back to role switch</Original>
+		<English>Back to role switch</English>
+		<Russian>Возврат к выбору роли</Russian>
+	</Key>
+	<Key ID="SlotsBTRSQuest">
+		<Original>Do you realy want to back to the lobby to switch the role?</Original>
+		<English>Do you realy want to back to the lobby to switch the role?</English>
+		<Russian>Вы уверены, что хотите выйти в лобби для выбора роли?</Russian>
+	</Key>
+  <Key ID="SlotsBackToRoleSwitch">
+		<Original>Back to role switch</Original>
+		<English>Back to role switch</English>
+		<Russian>Назад к выбору роли</Russian>
+	</Key>
+  <Key ID="SlotsFirstMessage1">
+		<Original>Your selected role is:</Original>
+		<English>Your selected role is:</English>
+		<Russian>Вы выбрали роль:</Russian>
+	</Key>
+  <Key ID="SlotsFirstMessage2">
+		<Original>. This role includes the following</Original>
+		<English>. This role includes the following</English>
+		<Russian>. Для данной роли вам доступно </Russian>
+	</Key>
+  <Key ID="SlotsFirstMessage3">
+		<Original>kits.</Original>
+		<English>kits.</English>
+		<Russian>комплектов экипировки.</Russian>
+	</Key>   
+
+	<!-- Наименование каждой роли в заголовке -->
+	<Key ID="SlotsSquadLeader">
+		<Original>Squad leader</Original>
+		<English>Squad leader</English>
+		<Russian>Командир отряда</Russian>
+	</Key>
+	<Key ID="SlotsMedic">
+		<Original>Medic</Original>
+		<English>Medic</English>
+		<Russian>Медик</Russian>
+	</Key>
+	<Key ID="SlotsEngineer">
+		<Original>Engineer</Original>
+		<English>Engineer</English>
+		<Russian>Инженер</Russian>
+	</Key>
+	<Key ID="SlotsGrenadier">
+		<Original>Grenadier</Original>
+		<English>Grenadier</English>
+		<Russian>Гранатомётчик</Russian>
+	</Key>
+	<Key ID="SlotsMachinegunner">
+		<Original>Machinegunner</Original>
+		<English>Machinegunner</English>
+		<Russian>Пулемётчик</Russian>
+	</Key>
+	<Key ID="SlotsSniper">
+		<Original>Sniper</Original>
+		<English>Sniper</English>
+		<Russian>Снайпер</Russian>
+	</Key>
+	<Key ID="SlotsRifleman">
+		<Original>Rifleman</Original>
+		<English>Rifleman</English>
+		<Russian>Стрелок</Russian>
+	</Key>
+	<Key ID="SlotsBreacher">
+		<Original>Stormtrooper</Original>
+		<English>Stormtrooper</English>
+		<Russian>Штурмовик</Russian>
+	</Key>
+	<Key ID="SlotsCrewman">
+		<Original>Crew member</Original>
+		<English>Crew member</English>
+		<Russian>Член экипажа</Russian>
+	</Key>
+	<Key ID="SlotsPilot">
+		<Original>Pilot</Original>
+		<English>Pilot</English>
+		<Russian>Пилот</Russian>
+	</Key>
+	<!-- Описание каждой выбранной роли -->
+	<Key ID="SlotsSquadLeaderDis">
+		<Original>Squad leader first of all leads the squad. He can set respawn point only for his squad. If the squad leader was killed or left server respawn point would be deleted. Respawn point cannot be set if the enemy is close. Respawn point can be set every 5 mins, previous respawn point will be automatically deleted.</Original>
+		<English>Squad leader first of all leads the squad. He can set respawn point only for his squad. If the squad leader was killed or left server respawn point would be deleted. Respawn point cannot be set if the enemy is close. Respawn point can be set every 5 mins, previous respawn point will be automatically deleted.</English>
+		<Russian>Командир отряда прежде всего руководит группой бойцов. Может устанавливать точку сбора(место возрождения) только для своего отделения. Если командир группы убит или вышел с сервера, точка возрождения более не доступна. Точку сбора нельзя установить если рядом находится противник. Точку сбора можно устанавливать каждые 5 минут, предыдущая точка сбора автоматически удаляется.</Russian>
+	</Key>
+	<Key ID="SlotsMedicDis">
+		<Original>Medic revives wounded players 2 times faster and restores full health. He has backpack and medkit. He should move behiind the squad. It is also not recommended to separate far from the squad, as urgent medical care may be needed.</Original>
+		<English>Medic revives wounded players 2 times faster and restores full health. He has backpack and medkit. He should move behiind the squad. It is also not recommended to separate far from the squad, as urgent medical care may be needed.</English>
+		<Russian>Медик поднимает раненых в 2 раза быстрее остальных игроков, а так же полностью восстанавливает здоровье игрокам. Имеет с собой рюкзак и medkit. Медику следует держатся позади группы. Так же не рекомендуется отделятся далеко от группы, т.к. может понадобиться срочная мед.помощь.</Russian>
+	</Key>
+	<Key ID="SlotsEngineerDis">
+		<Original>Engineer can repair vehicles in the field and aldo disarm AT mines, bombs, land mines, and improvised explosive devices. He has backpack and tools. He also has explosives and mines.</Original>
+		<English>Engineer can repair vehicles in the field and aldo disarm AT mines, bombs, land mines, and improvised explosive devices. He has backpack and tools. He also has explosives and mines.</English>
+		<Russian>Инженер в отделении предназначен для полевого ремонта техники, а так же для обезвреживания мин, бомб, фугасов, самодельных взрывных устройств. Имеет с собой рюкзак и набор инструментов. В наличии имеется взрывчатка и мины.</Russian>
+	</Key>
+	<Key ID="SlotsGrenadierDis">
+		<Original>Grenadier is up to suppress large groups of enemy manpower during the first fire contact. An underbarrel grenade launcher is capable of causing damage to light enemy vehicles. The armored vehicles are destroyed by tanks and\or aircraft to balance the game.</Original>
+		<English>Grenadier is up to suppress large groups of enemy manpower during the first fire contact. An underbarrel grenade launcher is capable of causing damage to light enemy vehicles. The armored vehicles are destroyed by tanks and\or aircraft to balance the game.</English>
+		<Russian>Роль гранатомётчика предназначена для подавления больших групп живой силы противника при первом огневом контакте. Подствольный гранатомёт способен нанести повреждение для лёгкой техники противника. Остальную бронетехнику уничтожают танки и\или авиация для баланса игры.</Russian>
+	</Key>
+	<Key ID="SlotsMachinegunnerDis">
+		<Original>Machinegunner is up to cover his squad. Machinegunner first of all supresses enemy manpower as well as firing at those enemy units that were the first to open fire at you and your squad.</Original>
+		<English>Machinegunner is up to cover his squad. Machinegunner first of all supresses enemy manpower as well as firing at those enemy units that were the first to open fire at you and your squad.</English>
+		<Russian>Роль пулемётчика главным образом заключается в прикрытии своего отделения. Пулемётчик прежде всего подавляет скопления живой силы противника, а так же ведёт огонь по тем вражеским юнитам, что первыми открыли огонь по вам и вашему отделению.</Russian>
+	</Key>
+	<Key ID="SlotsSniperDis">
+		<Original>The role of a regular sniper in the squad is different from the sniper group. He should move not far from the group, conduct local reconnaissance, identify the most dangerous enemy positions. Priority targets for a sniper: machine guns, easel grenade launchers anti-tank systems, anti-aircraft systems, machine gunners, snipers, gunners on armored vehicles.</Original>
+		<English>The role of a regular sniper in the squad is different from the sniper group. He should move not far from the group, conduct local reconnaissance, identify the most dangerous enemy positions. Priority targets for a sniper: machine guns, easel grenade launchers anti-tank systems, anti-aircraft systems, machine gunners, snipers, gunners on armored vehicles.</English>
+		<Russian>Роль штатного снайпера в составе отделения, отличается от снайперской группы. Он должен находится недалеко от группы, проводить локальную разведку, выявлять наиболее опасные для отделения вражеские позиции. Приоритет целей для снайпера: станковые пулемёты,агс, ПТРК, ПЗРК, полемётчики и снайперы противника,стрелки на бронетехнике.</Russian>
+	</Key>
+	<Key ID="SlotsRiflemanDis">
+		<Original>Rifleman in the group is the main combat unit capable of both defending and conducting an offensive. He has more ammunition in relation to other members of the group.</Original>
+		<English>Rifleman in the group is the main combat unit capable of both defending and conducting an offensive. He has more ammunition in relation to other members of the group.</English>
+		<Russian>Стрелок в группе является основной боевой единицей способной как оборонятся так и вести наступление. Имеет больший боезапас по отношению к другим членам группы.</Russian>
+	</Key>
+	<Key ID="SlotsBreacherDis">
+		<Original>Stormtrooper is up to clear and search buildings. He is better equiped and has close quarters weapons.</Original>
+		<English>Stormtrooper is up to clear and search buildings. He is better equiped and has close quarters weapons.</English>
+		<Russian>Роль штурмовика заключается главным образом в зачистке и обыске зданий. Штурмовик лучше экипирован, имеет при себе оружие предназначенного для малых и сверхмалых дистанциях.</Russian>
+	</Key>
+	<Key ID="SlotsCrewmanDis">
+		<Original>Crew member is up to transport infantry to combat area, destroy enemy armored convoys, cover infantry in urban areas.</Original>
+		<English>Crew member is up to transport infantry to combat area, destroy enemy armored convoys, cover infantry in urban areas.</English>
+		<Russian>Роль члена экипажа предназначена для транспортировки пехотных отделений в зону боевых действий, уничтожение вражеских конвоев бронетехники, оказание прикрытия пехотных отделений в населённых пунктах.</Russian>
+	</Key>
+	<Key ID="SlotsPilotDis">
+		<Original>Pilot has special equipment presets. Each is used for different airctafts. Pilots are up to search and destroy enemy vehicles, clear airspace, transport infantry to combat area, evacuation and transporting to the base, delivering ammocrates.</Original>
+		<English>Pilot has special equipment presets. Each is used for different airctafts. Pilots are up to search and destroy enemy vehicles, clear airspace, transport infantry to combat area, evacuation and transporting to the base, delivering ammocrates.</English>
+		<Russian>У пилотов особые комплекты экиперовки. Каждая из них предназначена для разных типов ЛА, не только с визуальной точки зрения, но и с функциональной. Пилотам отведена роль разведке, поиске и уничтожении вражеских боевых машин, зачистка воздушного пространства от вражеской авиации, доставка пехотных отделений в зону боевых действий, эвакуация с доставкой на базу, доставка боеприпасов.</Russian>
+	</Key>
+	<!--								Далее идет перевод описания каждого слота каждой роли		-->		
+	<!-- Squad Leader -->  
+	<Key ID="AFSlotsSquadLeader1">
+		<Original>Primary weapon: М4А1 +11mags.&lt;br /&gt;Secondary weapon: М9 +3mags.&lt;br /&gt;HE: М67 x2.&lt;br /&gt;Smoke grenades: White x2, Green x1, Red x1.&lt;br /&gt;Hand flare: Blue x2.&lt;br /&gt;Bandages: x3.&lt;br /&gt;&lt;br /&gt;[Additional equipment and weapon kits are available in the 3D Arsenal!]</Original>
+		<English>Primary weapon: М4А1 +11mags.&lt;br /&gt;Secondary weapon: М9 +3mags.&lt;br /&gt;HE: М67 x2.&lt;br /&gt;Smoke grenades: White x2, Green x1, Red x1.&lt;br /&gt;Hand flare: Blue x2.&lt;br /&gt;Bandages: x3.&lt;br /&gt;&lt;br /&gt;[Additional equipment and weapon kits are available in the 3D Arsenal!]</English>
+		<Russian>Основное оружие: М4А1 +11маг.&lt;br /&gt;Вторичное оружие: М9 +3маг.&lt;br /&gt;Граната оск: М67 2шт.&lt;br /&gt;Дымовые: Белый 2шт, Зелёный 1шт, Красный 1шт.&lt;br /&gt;ХИС: Синий 2шт.&lt;br /&gt;Перевязочный пакет: 3шт.&lt;br /&gt;&lt;br /&gt;[Дополнительное снаряжение и обвес оружия доступны в 3D Арсенале!]</Russian>
+	</Key>
+	<Key ID="AFSlotsSquadLeader2">
+		<Original>Primary weapon: М16A4 +11mags.&lt;br /&gt;Secondary weapon: М9 +3mags.&lt;br /&gt;HE: М67 x2.&lt;br /&gt;Smoke grenades: White x2, Green x1, Red x1.&lt;br /&gt;Hand flare: Blue x2.&lt;br /&gt;Bandages: x3.&lt;br /&gt;&lt;br /&gt;[Additional equipment and weapon kits are available in the 3D Arsenal!]</Original>
+		<English>Primary weapon: М16A4 +11mags.&lt;br /&gt;Secondary weapon: М9 +3mags.&lt;br /&gt;HE: М67 x2.&lt;br /&gt;Smoke grenades: White x2, Green x1, Red x1.&lt;br /&gt;Hand flare: Blue x2.&lt;br /&gt;Bandages: x3.&lt;br /&gt;&lt;br /&gt;[Additional equipment and weapon kits are available in the 3D Arsenal!]</English>
+		<Russian>Основное оружие: М16A4 +11маг.&lt;br /&gt;Вторичное оружие: М9 +3маг.&lt;br /&gt;Граната оск: М67 2шт.&lt;br /&gt;Дымовые: Белый 2шт, Зелёный 1шт, Красный 1шт.&lt;br /&gt;ХИС: Синий 2шт.&lt;br /&gt;Перевязочный пакет: 3шт.&lt;br /&gt;&lt;br /&gt;[Дополнительное снаряжение и обвес оружия доступны в 3D Арсенале!]</Russian>
+	</Key>
+	<Key ID="AFSlotsSquadLeader3">
+		<Original>Primary weapon: HK416 +11mags.&lt;br /&gt;Secondary weapon: М9 +3mags.&lt;br /&gt;HE: М67 x2.&lt;br /&gt;Smoke grenades: White x2, Green x1, Red x1.&lt;br /&gt;Hand flare: Blue x2.&lt;br /&gt;Bandages: x3.&lt;br /&gt;&lt;br /&gt;[Additional equipment and weapon kits are available in the 3D Arsenal!]</Original>
+		<English>Primary weapon: HK416 +11mags.&lt;br /&gt;Secondary weapon: М9 +3mags.&lt;br /&gt;HE: М67 x2.&lt;br /&gt;Smoke grenades: White x2, Green x1, Red x1.&lt;br /&gt;Hand flare: Blue x2.&lt;br /&gt;Bandages: x3.&lt;br /&gt;&lt;br /&gt;[Additional equipment and weapon kits are available in the 3D Arsenal!]</English>
+		<Russian>Основное оружие: HK416 +11маг.&lt;br /&gt;Вторичное оружие: М9 +3маг.&lt;br /&gt;Граната оск: М67 2шт.&lt;br /&gt;Дымовые: Белый 2шт, Зелёный 1шт, Красный 1шт.&lt;br /&gt;ХИС: Синий 2шт.&lt;br /&gt;Перевязочный пакет: 3шт.&lt;br /&gt;&lt;br /&gt;[Дополнительное снаряжение и обвес оружия доступны в 3D Арсенале!]</Russian>
+	</Key>
+	<Key ID="AFSlotsSquadLeader4">
+		<Original>Primary weapon: FN2000 +11mags.&lt;br /&gt;Secondary weapon: М9 +3mags.&lt;br /&gt;HE: М67 x2.&lt;br /&gt;Smoke grenades: White x2, Green x1, Red x1.&lt;br /&gt;Hand flare: Blue x2.&lt;br /&gt;Bandages: x3.&lt;br /&gt;&lt;br /&gt;[Additional equipment and weapon kits are available in the 3D Arsenal!]</Original>
+		<English>Primary weapon: FN2000 +11mags.&lt;br /&gt;Secondary weapon: М9 +3mags.&lt;br /&gt;HE: М67 x2.&lt;br /&gt;Smoke grenades: White x2, Green x1, Red x1.&lt;br /&gt;Hand flare: Blue x2.&lt;br /&gt;Bandages: x3.&lt;br /&gt;&lt;br /&gt;[Additional equipment and weapon kits are available in the 3D Arsenal!]</English>
+		<Russian>Основное оружие: FN2000 +11маг.&lt;br /&gt;Вторичное оружие: М9 +3маг.&lt;br /&gt;Граната оск: М67 2шт.&lt;br /&gt;Дымовые: Белый 2шт, Зелёный 1шт, Красный 1шт.&lt;br /&gt;ХИС: Синий 2шт.&lt;br /&gt;Перевязочный пакет: 3шт.&lt;br /&gt;&lt;br /&gt;[Дополнительное снаряжение и обвес оружия доступны в 3D Арсенале!]</Russian>
+	</Key>
+	<Key ID="AFSlotsSquadLeader5">
+		<Original>Primary weapon: FN SCAR-L +11mags.&lt;br /&gt;Secondary weapon: М9 +3mags.&lt;br /&gt;HE: М67 x2.&lt;br /&gt;Smoke grenades: White x2, Green x1, Red x1.&lt;br /&gt;Hand flare: Blue x2.&lt;br /&gt;Bandages: x3.&lt;br /&gt;&lt;br /&gt;[Additional equipment and weapon kits are available in the 3D Arsenal!]</Original>
+		<English>Primary weapon: FN SCAR-L +11mags.&lt;br /&gt;Secondary weapon: М9 +3mags.&lt;br /&gt;HE: М67 x2.&lt;br /&gt;Smoke grenades: White x2, Green x1, Red x1.&lt;br /&gt;Hand flare: Blue x2.&lt;br /&gt;Bandages: x3.&lt;br /&gt;&lt;br /&gt;[Additional equipment and weapon kits are available in the 3D Arsenal!]</English>
+		<Russian>Основное оружие: FN SCAR-L +11маг.&lt;br /&gt;Вторичное оружие: М9 +3маг.&lt;br /&gt;Граната оск: М67 2шт.&lt;br /&gt;Дымовые: Белый 2шт, Зелёный 1шт, Красный 1шт.&lt;br /&gt;ХИС: Синий 2шт.&lt;br /&gt;Перевязочный пакет: 3шт.&lt;br /&gt;&lt;br /&gt;[Дополнительное снаряжение и обвес оружия доступны в 3D Арсенале!]</Russian>
+	</Key>
+<!-- Medic -->  
+	<Key ID="AFSlotsMedic1">
+		<Original>Primary weapon: М4А1 +9mags.&lt;br /&gt;Secondary weapon: М9 +2mags.&lt;br /&gt;HE: М67 x2.&lt;br /&gt;Smoke grenades: White x8, Red x2, Orange x2.&lt;br /&gt;Backpack: x1.&lt;br /&gt;Medkit x1.&lt;br /&gt;Bandages: x8.&lt;br /&gt;&lt;br /&gt;[Additional equipment and weapon kits are available in the 3D Arsenal!]</Original>
+		<English>Primary weapon: М4А1 +9mags.&lt;br /&gt;Secondary weapon: М9 +2mags.&lt;br /&gt;HE: М67 x2.&lt;br /&gt;Smoke grenades: White x8, Red x2, Orange x2.&lt;br /&gt;Backpack: x1.&lt;br /&gt;Medkit x1.&lt;br /&gt;Bandages: x8.&lt;br /&gt;&lt;br /&gt;[Additional equipment and weapon kits are available in the 3D Arsenal!]</English>
+		<Russian>Основное оружие: М4А1 +9маг.&lt;br /&gt;Вторичное оружие: М9 +2маг.&lt;br /&gt;Граната оск: М67 2шт.&lt;br /&gt;Дымовые: Белый 8шт, Красный 2шт, Оранжевый 2шт.&lt;br /&gt;Рюкзак: 1шт.&lt;br /&gt;Аптечка 1шт.&lt;br /&gt;Перевязочный пакет: 8шт.&lt;br /&gt;&lt;br /&gt;[Дополнительное снаряжение и обвес оружия доступны в 3D Арсенале!]</Russian>
+	</Key>
+	<Key ID="AFSlotsMedic2">
+		<Original>Primary weapon: М16A4 +9mags.&lt;br /&gt;Secondary weapon: М9 +2mags.&lt;br /&gt;HE: М67 x2.&lt;br /&gt;Smoke grenades: White x8, Red x2, Orange x2.&lt;br /&gt;Backpack: x1.&lt;br /&gt;Medkit x1.&lt;br /&gt;Bandages: x8.&lt;br /&gt;&lt;br /&gt;[Additional equipment and weapon kits are available in the 3D Arsenal!]</Original>
+		<English>Primary weapon: М16A4 +9mags.&lt;br /&gt;Secondary weapon: М9 +2mags.&lt;br /&gt;HE: М67 x2.&lt;br /&gt;Smoke grenades: White x8, Red x2, Orange x2.&lt;br /&gt;Backpack: x1.&lt;br /&gt;Medkit x1.&lt;br /&gt;Bandages: x8.&lt;br /&gt;&lt;br /&gt;[Additional equipment and weapon kits are available in the 3D Arsenal!]</English>
+		<Russian>Основное оружие: М16A4 +9маг.&lt;br /&gt;Вторичное оружие: М9 +2маг.&lt;br /&gt;Граната оск: М67 2шт.&lt;br /&gt;Дымовые: Белый 8шт, Красный 2шт, Оранжевый 2шт.&lt;br /&gt;Рюкзак: 1шт.&lt;br /&gt;Аптечка 1шт.&lt;br /&gt;Перевязочный пакет: 8шт.&lt;br /&gt;&lt;br /&gt;[Дополнительное снаряжение и обвес оружия доступны в 3D Арсенале!]</Russian>
+	</Key>
+	<Key ID="AFSlotsMedic3">
+		<Original>Primary weapon: HK416 +9mags.&lt;br /&gt;Secondary weapon: М9 +2mags.&lt;br /&gt;HE: М67 x2.&lt;br /&gt;Smoke grenades: White x8, Red x2, Orange x2.&lt;br /&gt;Backpack: x1.&lt;br /&gt;Medkit x1.&lt;br /&gt;Bandages: x8.&lt;br /&gt;&lt;br /&gt;[Additional equipment and weapon kits are available in the 3D Arsenal!]</Original>
+		<English>Primary weapon: HK416 +9mags.&lt;br /&gt;Secondary weapon: М9 +2mags.&lt;br /&gt;HE: М67 x2.&lt;br /&gt;Smoke grenades: White x8, Red x2, Orange x2.&lt;br /&gt;Backpack: x1.&lt;br /&gt;Medkit x1.&lt;br /&gt;Bandages: x8.&lt;br /&gt;&lt;br /&gt;[Additional equipment and weapon kits are available in the 3D Arsenal!]</English>
+		<Russian>Основное оружие: HK416 +9маг.&lt;br /&gt;Вторичное оружие: М9 +2маг.&lt;br /&gt;Граната оск: М67 2шт.&lt;br /&gt;Дымовые: Белый 8шт, Красный 2шт, Оранжевый 2шт.&lt;br /&gt;Рюкзак: 1шт.&lt;br /&gt;Аптечка 1шт.&lt;br /&gt;Перевязочный пакет: 8шт.&lt;br /&gt;&lt;br /&gt;[Дополнительное снаряжение и обвес оружия доступны в 3D Арсенале!]</Russian>
+	</Key>
+	<Key ID="AFSlotsMedic4">
+		<Original>Primary weapon: FN2000 +9mags.&lt;br /&gt;Secondary weapon: М9 +2mags.&lt;br /&gt;HE: М67 x2.&lt;br /&gt;Smoke grenades: White x8, Red x2, Orange x2.&lt;br /&gt;Backpack: x1.&lt;br /&gt;Medkit x1.&lt;br /&gt;Bandages: x8.&lt;br /&gt;&lt;br /&gt;[Additional equipment and weapon kits are available in the 3D Arsenal!]</Original>
+		<English>Primary weapon: FN2000 +9mags.&lt;br /&gt;Secondary weapon: М9 +2mags.&lt;br /&gt;HE: М67 x2.&lt;br /&gt;Smoke grenades: White x8, Red x2, Orange x2.&lt;br /&gt;Backpack: x1.&lt;br /&gt;Medkit x1.&lt;br /&gt;Bandages: x8.&lt;br /&gt;&lt;br /&gt;[Additional equipment and weapon kits are available in the 3D Arsenal!]</English>
+		<Russian>Основное оружие: FN2000 +9маг.&lt;br /&gt;Вторичное оружие: М9 +2маг.&lt;br /&gt;Граната оск: М67 2шт.&lt;br /&gt;Дымовые: Белый 8шт, Красный 2шт, Оранжевый 2шт.&lt;br /&gt;Рюкзак: 1шт.&lt;br /&gt;Аптечка 1шт.&lt;br /&gt;Перевязочный пакет: 8шт.&lt;br /&gt;&lt;br /&gt;[Дополнительное снаряжение и обвес оружия доступны в 3D Арсенале!]</Russian>
+	</Key>
+	<Key ID="AFSlotsMedic5">
+		<Original>Primary weapon: FN SCAR-L +9mags.&lt;br /&gt;Secondary weapon: М9 +2mags.&lt;br /&gt;HE: М67 x2.&lt;br /&gt;Smoke grenades: White x8, Red x2, Orange x2.&lt;br /&gt;Backpack: x1.&lt;br /&gt;Medkit x1.&lt;br /&gt;Bandages: x8.&lt;br /&gt;&lt;br /&gt;[Additional equipment and weapon kits are available in the 3D Arsenal!]</Original>
+		<English>Primary weapon: FN SCAR-L +9mags.&lt;br /&gt;Secondary weapon: М9 +2mags.&lt;br /&gt;HE: М67 x2.&lt;br /&gt;Smoke grenades: White x8, Red x2, Orange x2.&lt;br /&gt;Backpack: x1.&lt;br /&gt;Medkit x1.&lt;br /&gt;Bandages: x8.&lt;br /&gt;&lt;br /&gt;[Additional equipment and weapon kits are available in the 3D Arsenal!]</English>
+		<Russian>Основное оружие: FN SCAR-L +9маг.&lt;br /&gt;Вторичное оружие: М9 +2маг.&lt;br /&gt;Граната оск: М67 2шт.&lt;br /&gt;Дымовые: Белый 8шт, Красный 2шт, Оранжевый 2шт.&lt;br /&gt;Рюкзак: 1шт.&lt;br /&gt;Аптечка 1шт.&lt;br /&gt;Перевязочный пакет: 8шт.&lt;br /&gt;&lt;br /&gt;[Дополнительное снаряжение и обвес оружия доступны в 3D Арсенале!]</Russian>
+	</Key>
+	<!-- Engineer -->  
+	<Key ID="AFSlotsEngineer1">
+		<Original>Primary weapon: М4А1 +8mags.&lt;br /&gt;Secondary weapon: М9 +2mags.&lt;br /&gt;HE: М67 x2.&lt;br /&gt;Incendiary grenade: AN-M14 TH3 x2.&lt;br /&gt;Backpack: x1.&lt;br /&gt;AP Mines: x2. + Explosive charge: x2. Toolkit x1. Mine detector: x1.&lt;br /&gt;Bandages: x3.&lt;br /&gt;[Additional equipment and weapon kits are available in the 3D Arsenal!]</Original>
+		<English>Primary weapon: М4А1 +8mags.&lt;br /&gt;Secondary weapon: М9 +2mags.&lt;br /&gt;HE: М67 x2.&lt;br /&gt;Incendiary grenade: AN-M14 TH3 x2.&lt;br /&gt;Backpack: x1.&lt;br /&gt;AP Mines: x2. + Explosive charge: x2. Toolkit x1. Mine detector: x1.&lt;br /&gt;Bandages: x3.&lt;br /&gt;[Additional equipment and weapon kits are available in the 3D Arsenal!]</English>
+		<Russian>Основное оружие: М4А1 +8маг.&lt;br /&gt;Вторичное оружие: М9 +2маг.&lt;br /&gt;Граната оск: М67 2шт.&lt;br /&gt;Граната зажигательная: AN-M14 TH3 2шт.&lt;br /&gt;Рюкзак: 1шт.&lt;br /&gt;ПП Мины: 2шт. + Подрывной заряд: 2шт. Набор инструментов 1шт. Миноискатель: 1шт.&lt;br /&gt;Перевязочный пакет: 3шт.&lt;br /&gt;[Дополнительное снаряжение и обвес оружия доступны в 3D Арсенале!]</Russian>
+	</Key>
+	<Key ID="AFSlotsEngineer2">
+		<Original>Primary weapon: М16A4 +8mags.&lt;br /&gt;Secondary weapon: М9 +2mags.&lt;br /&gt;HE: М67 x2.&lt;br /&gt;Incendiary grenade: AN-M14 TH3 x2.&lt;br /&gt;Backpack: x1.&lt;br /&gt;AP Mines: x2. + Explosive charge: x2. Toolkit x1. Mine detector: x1.&lt;br /&gt;Bandages: x3.&lt;br /&gt;[Additional equipment and weapon kits are available in the 3D Arsenal!]</Original>
+		<English>Primary weapon: М16A4 +8mags.&lt;br /&gt;Secondary weapon: М9 +2mags.&lt;br /&gt;HE: М67 x2.&lt;br /&gt;Incendiary grenade: AN-M14 TH3 x2.&lt;br /&gt;Backpack: x1.&lt;br /&gt;AP Mines: x2. + Explosive charge: x2. Toolkit x1. Mine detector: x1.&lt;br /&gt;Bandages: x3.&lt;br /&gt;[Additional equipment and weapon kits are available in the 3D Arsenal!]</English>
+		<Russian>Основное оружие: М16A4 +8маг.&lt;br /&gt;Вторичное оружие: М9 +2маг.&lt;br /&gt;Граната оск: М67 2шт.&lt;br /&gt;Граната зажигательная: AN-M14 TH3 2шт.&lt;br /&gt;Рюкзак: 1шт.&lt;br /&gt;ПП Мины: 2шт. + Подрывной заряд: 2шт. Набор инструментов 1шт. Миноискатель: 1шт.&lt;br /&gt;Перевязочный пакет: 3шт.&lt;br /&gt;[Дополнительное снаряжение и обвес оружия доступны в 3D Арсенале!]</Russian>
+	</Key>
+	<Key ID="AFSlotsEngineer3">
+		<Original>Primary weapon: HK416 +8mags.&lt;br /&gt;Secondary weapon: М9 +2mags.&lt;br /&gt;HE: М67 x2.&lt;br /&gt;Incendiary grenade: AN-M14 TH3 x2.&lt;br /&gt;Backpack: x1.&lt;br /&gt;AP Mines: x2. + Explosive charge: x2. Toolkit x1. Mine detector: x1.&lt;br /&gt;Bandages: x3.&lt;br /&gt;[Additional equipment and weapon kits are available in the 3D Arsenal!]</Original>
+		<English>Primary weapon: HK416 +8mags.&lt;br /&gt;Secondary weapon: М9 +2mags.&lt;br /&gt;HE: М67 x2.&lt;br /&gt;Incendiary grenade: AN-M14 TH3 x2.&lt;br /&gt;Backpack: x1.&lt;br /&gt;AP Mines: x2. + Explosive charge: x2. Toolkit x1. Mine detector: x1.&lt;br /&gt;Bandages: x3.&lt;br /&gt;[Additional equipment and weapon kits are available in the 3D Arsenal!]</English>
+		<Russian>Основное оружие: HK416 +8маг.&lt;br /&gt;Вторичное оружие: М9 +2маг.&lt;br /&gt;Граната оск: М67 2шт.&lt;br /&gt;Граната зажигательная: AN-M14 TH3 2шт.&lt;br /&gt;Рюкзак: 1шт.&lt;br /&gt;ПП Мины: 2шт. + Подрывной заряд: 2шт. Набор инструментов 1шт. Миноискатель: 1шт.&lt;br /&gt;Перевязочный пакет: 3шт.&lt;br /&gt;[Дополнительное снаряжение и обвес оружия доступны в 3D Арсенале!]</Russian>
+	</Key>
+	<Key ID="AFSlotsEngineer4">
+		<Original>Primary weapon: FN2000 +8mags.&lt;br /&gt;Secondary weapon: М9 +2mags.&lt;br /&gt;HE: М67 x2.&lt;br /&gt;Incendiary grenade: AN-M14 TH3 x2.&lt;br /&gt;Backpack: x1.&lt;br /&gt;AP Mines: x2. + Explosive charge: x2. Toolkit x1. Mine detector: x1.&lt;br /&gt;Bandages: x3.&lt;br /&gt;[Additional equipment and weapon kits are available in the 3D Arsenal!]</Original>
+		<English>Primary weapon: FN2000 +8mags.&lt;br /&gt;Secondary weapon: М9 +2mags.&lt;br /&gt;HE: М67 x2.&lt;br /&gt;Incendiary grenade: AN-M14 TH3 x2.&lt;br /&gt;Backpack: x1.&lt;br /&gt;AP Mines: x2. + Explosive charge: x2. Toolkit x1. Mine detector: x1.&lt;br /&gt;Bandages: x3.&lt;br /&gt;[Additional equipment and weapon kits are available in the 3D Arsenal!]</English>
+		<Russian>Основное оружие: FN2000 +8маг.&lt;br /&gt;Вторичное оружие: М9 +2маг.&lt;br /&gt;Граната оск: М67 2шт.&lt;br /&gt;Граната зажигательная: AN-M14 TH3 2шт.&lt;br /&gt;Рюкзак: 1шт.&lt;br /&gt;ПП Мины: 2шт. + Подрывной заряд: 2шт. Набор инструментов 1шт. Миноискатель: 1шт.&lt;br /&gt;Перевязочный пакет: 3шт.&lt;br /&gt;[Дополнительное снаряжение и обвес оружия доступны в 3D Арсенале!]</Russian>
+	</Key>
+	<Key ID="AFSlotsEngineer5">
+		<Original>Primary weapon: FN SCAR-L +8mags.&lt;br /&gt;Secondary weapon: М9 +2mags.&lt;br /&gt;HE: М67 x2.&lt;br /&gt;Incendiary grenade: AN-M14 TH3 x2.&lt;br /&gt;Backpack: x1.&lt;br /&gt;AP Mines: x2. + Explosive charge: x2. Toolkit x1. Mine detector: x1.&lt;br /&gt;Bandages: x3.&lt;br /&gt;[Additional equipment and weapon kits are available in the 3D Arsenal!]</Original>
+		<English>Primary weapon: FN SCAR-L +8mags.&lt;br /&gt;Secondary weapon: М9 +2mags.&lt;br /&gt;HE: М67 x2.&lt;br /&gt;Incendiary grenade: AN-M14 TH3 x2.&lt;br /&gt;Backpack: x1.&lt;br /&gt;AP Mines: x2. + Explosive charge: x2. Toolkit x1. Mine detector: x1.&lt;br /&gt;Bandages: x3.&lt;br /&gt;[Additional equipment and weapon kits are available in the 3D Arsenal!]</English>
+		<Russian>Основное оружие: FN SCAR-L +8маг.&lt;br /&gt;Вторичное оружие: М9 +2маг.&lt;br /&gt;Граната оск: М67 2шт.&lt;br /&gt;Граната зажигательная: AN-M14 TH3 2шт.&lt;br /&gt;Рюкзак: 1шт.&lt;br /&gt;ПП Мины: 2шт. + Подрывной заряд: 2шт. Набор инструментов 1шт. Миноискатель: 1шт.&lt;br /&gt;Перевязочный пакет: 3шт.&lt;br /&gt;[Дополнительное снаряжение и обвес оружия доступны в 3D Арсенале!]</Russian>
+	</Key>
+	<!-- Grenadier -->  
+	<Key ID="AFSlotsGrenadier1">
+		<Original>Primary weapon: М4А1М 203 +9mags. +M441 HE x6&lt;br /&gt;Secondary weapon: М9 +2mags.&lt;br /&gt;HE: М67 x2.&lt;br /&gt;Bandages: x3.&lt;br /&gt;[Additional equipment and weapon kits are available in the 3D Arsenal!]</Original>
+		<English>Primary weapon: М4А1М 203 +9mags. +M441 HE x6&lt;br /&gt;Secondary weapon: М9 +2mags.&lt;br /&gt;HE: М67 x2.&lt;br /&gt;Bandages: x3.&lt;br /&gt;[Additional equipment and weapon kits are available in the 3D Arsenal!]</English>
+		<Russian>Основное оружие: М4А1М 203 +9маг. +M441 HE 6шт&lt;br /&gt;Вторичное оружие: М9 +2маг.&lt;br /&gt;Граната оск: М67 2шт.&lt;br /&gt;Перевязочный пакет: 3шт.&lt;br /&gt;[Дополнительное снаряжение и обвес оружия доступны в 3D Арсенале!]</Russian>
+	</Key>
+	<Key ID="AFSlotsGrenadier2">
+		<Original>Primary weapon: m16A4 M203 +9mags. +M441 HE x6&lt;br /&gt;Secondary weapon: М9 +2mags.&lt;br /&gt;HE: М67 x2.&lt;br /&gt;Bandages: x3.&lt;br /&gt;[Additional equipment and weapon kits are available in the 3D Arsenal!]</Original>
+		<English>Primary weapon: m16A4 M203 +9mags. +M441 HE x6&lt;br /&gt;Secondary weapon: М9 +2mags.&lt;br /&gt;HE: М67 x2.&lt;br /&gt;Bandages: x3.&lt;br /&gt;[Additional equipment and weapon kits are available in the 3D Arsenal!]</English>
+		<Russian>Основное оружие: m16A4 M203 +9маг. +M441 HE 6шт&lt;br /&gt;Вторичное оружие: М9 +2маг.&lt;br /&gt;Граната оск: М67 2шт.&lt;br /&gt;Перевязочный пакет: 3шт.&lt;br /&gt;[Дополнительное снаряжение и обвес оружия доступны в 3D Арсенале!]</Russian>
+	</Key>
+	<Key ID="AFSlotsGrenadier3">
+		<Original>Primary weapon: HK416 M320 +9mags. +M441 HE x6&lt;br /&gt;Secondary weapon: М9 +2mags.&lt;br /&gt;HE: М67 x2.&lt;br /&gt;Bandages: x3.&lt;br /&gt;[Additional equipment and weapon kits are available in the 3D Arsenal!]</Original>
+		<English>Primary weapon: HK416 M320 +9mags. +M441 HE x6&lt;br /&gt;Secondary weapon: М9 +2mags.&lt;br /&gt;HE: М67 x2.&lt;br /&gt;Bandages: x3.&lt;br /&gt;[Additional equipment and weapon kits are available in the 3D Arsenal!]</English>
+		<Russian>Основное оружие: HK416 M320 +9маг. +M441 HE 6шт&lt;br /&gt;Вторичное оружие: М9 +2маг.&lt;br /&gt;Граната оск: М67 2шт.&lt;br /&gt;Перевязочный пакет: 3шт.&lt;br /&gt;[Дополнительное снаряжение и обвес оружия доступны в 3D Арсенале!]</Russian>
+	</Key>
+	<Key ID="AFSlotsGrenadier4">
+		<Original>Primary weapon: FN 2000GL +9mags. +M441 HE x6&lt;br /&gt;Secondary weapon: М9 +2mags.&lt;br /&gt;HE: М67 x2.&lt;br /&gt;Bandages: x3.&lt;br /&gt;[Additional equipment and weapon kits are available in the 3D Arsenal!]</Original>
+		<English>Primary weapon: FN 2000GL +9mags. +M441 HE x6&lt;br /&gt;Secondary weapon: М9 +2mags.&lt;br /&gt;HE: М67 x2.&lt;br /&gt;Bandages: x3.&lt;br /&gt;[Additional equipment and weapon kits are available in the 3D Arsenal!]</English>
+		<Russian>Основное оружие: FN 2000GL +9маг. +M441 HE 6шт&lt;br /&gt;Вторичное оружие: М9 +2маг.&lt;br /&gt;Граната оск: М67 2шт.&lt;br /&gt;Перевязочный пакет: 3шт.&lt;br /&gt;[Дополнительное снаряжение и обвес оружия доступны в 3D Арсенале!]</Russian>
+	</Key>
+	<Key ID="AFSlotsGrenadier5">
+		<Original>Primary weapon: FN SCAR-L EGLM +9mags. +M441 HE x6&lt;br /&gt;Secondary weapon: М9 +2mags.&lt;br /&gt;HE: М67 x2.&lt;br /&gt;Bandages: x3.&lt;br /&gt;[Additional equipment and weapon kits are available in the 3D Arsenal!]</Original>
+		<English>Primary weapon: FN SCAR-L EGLM +9mags. +M441 HE x6&lt;br /&gt;Secondary weapon: М9 +2mags.&lt;br /&gt;HE: М67 x2.&lt;br /&gt;Bandages: x3.&lt;br /&gt;[Additional equipment and weapon kits are available in the 3D Arsenal!]</English>
+		<Russian>Основное оружие: FN SCAR-L EGLM +9маг. +M441 HE 6шт&lt;br /&gt;Вторичное оружие: М9 +2маг.&lt;br /&gt;Граната оск: М67 2шт.&lt;br /&gt;Перевязочный пакет: 3шт.&lt;br /&gt;[Дополнительное снаряжение и обвес оружия доступны в 3D Арсенале!]</Russian>
+	</Key>
+	<!-- Machinegunner -->  
+	<Key ID="AFSlotsMachinegunner1">
+		<Original>Primary weapon: M249 +8mags.X100rnds.&lt;br /&gt;Secondary weapon: Glock17 +8mags.&lt;br /&gt;Backpack: x1.&lt;br /&gt;Bandages: x3.&lt;br /&gt;[Additional equipment and weapon kits are available in the 3D Arsenal!]</Original>
+		<English>Primary weapon: M249 +8mags.X100rnds.&lt;br /&gt;Secondary weapon: Glock17 +8mags.&lt;br /&gt;Backpack: x1.&lt;br /&gt;Bandages: x3.&lt;br /&gt;[Additional equipment and weapon kits are available in the 3D Arsenal!]</English>
+		<Russian>Основное оружие: M249 +8маг.X100патр.&lt;br /&gt;Вторичное оружие: Glock17 +8маг.&lt;br /&gt;Рюкзак: 1шт.&lt;br /&gt;Перевязочный пакет: 3шт.&lt;br /&gt;[Дополнительное снаряжение и обвес оружия доступны в 3D Арсенале!]</Russian>
+	</Key>
+	<Key ID="AFSlotsMachinegunner2">
+		<Original>Primary weapon: M240 +8mags.X100rnds.&lt;br /&gt;Secondary weapon: Glock17 +8mags.&lt;br /&gt;Backpack: x1.&lt;br /&gt;Bandages: x3.&lt;br /&gt;[Additional equipment and weapon kits are available in the 3D Arsenal!]</Original>
+		<English>Primary weapon: M240 +8mags.X100rnds.&lt;br /&gt;Secondary weapon: Glock17 +8mags.&lt;br /&gt;Backpack: x1.&lt;br /&gt;Bandages: x3.&lt;br /&gt;[Additional equipment and weapon kits are available in the 3D Arsenal!]</English>
+		<Russian>Основное оружие: M240 +8маг.X100патр.&lt;br /&gt;Вторичное оружие: Glock17 +8маг.&lt;br /&gt;Рюкзак: 1шт.&lt;br /&gt;Перевязочный пакет: 3шт.&lt;br /&gt;[Дополнительное снаряжение и обвес оружия доступны в 3D Арсенале!]</Russian>
+	</Key>
+	<Key ID="AFSlotsMachinegunner3">
+		<Original>Primary weapon: M27 IAR +8mags.X100rnds.&lt;br /&gt;Secondary weapon: Glock17 +8mags.&lt;br /&gt;Backpack: x1.&lt;br /&gt;Bandages: x3.&lt;br /&gt;[Additional equipment and weapon kits are available in the 3D Arsenal!]</Original>
+		<English>Primary weapon: M27 IAR +8mags.X100rnds.&lt;br /&gt;Secondary weapon: Glock17 +8mags.&lt;br /&gt;Backpack: x1.&lt;br /&gt;Bandages: x3.&lt;br /&gt;[Additional equipment and weapon kits are available in the 3D Arsenal!]</English>
+		<Russian>Основное оружие: M27 IAR +8маг.X100патр.&lt;br /&gt;Вторичное оружие: Glock17 +8маг.&lt;br /&gt;Рюкзак: 1шт.&lt;br /&gt;Перевязочный пакет: 3шт.&lt;br /&gt;[Дополнительное снаряжение и обвес оружия доступны в 3D Арсенале!]</Russian>
+	</Key>
+	<Key ID="AFSlotsMachinegunner4">
+		<Original>Primary weapon: Mk200 F +6mags.X200rnds.&lt;br /&gt;Secondary weapon: Glock17 +3mags.&lt;br /&gt;Backpack: x1.&lt;br /&gt;Bandages: x3.&lt;br /&gt;[Additional equipment and weapon kits are available in the 3D Arsenal!]</Original>
+		<English>Primary weapon: Mk200 F +6mags.X200rnds.&lt;br /&gt;Secondary weapon: Glock17 +3mags.&lt;br /&gt;Backpack: x1.&lt;br /&gt;Bandages: x3.&lt;br /&gt;[Additional equipment and weapon kits are available in the 3D Arsenal!]</English>
+		<Russian>Основное оружие: Mk200 F +6маг.X200патр.&lt;br /&gt;Вторичное оружие: Glock17 +3маг.&lt;br /&gt;Рюкзак: 1шт.&lt;br /&gt;Перевязочный пакет: 3шт.&lt;br /&gt;[Дополнительное снаряжение и обвес оружия доступны в 3D Арсенале!]</Russian>
+	</Key>
+	<Key ID="AFSlotsMachinegunner5">
+		<Original>Primary weapon: Mk48 +6mags.X100rnds.&lt;br /&gt;Secondary weapon: Glock17 +4mags.&lt;br /&gt;Backpack: x1.&lt;br /&gt;Bandages: x3.&lt;br /&gt;[Additional equipment and weapon kits are available in the 3D Arsenal!]</Original>
+		<English>Primary weapon: Mk48 +6mags.X100rnds.&lt;br /&gt;Secondary weapon: Glock17 +4mags.&lt;br /&gt;Backpack: x1.&lt;br /&gt;Bandages: x3.&lt;br /&gt;[Additional equipment and weapon kits are available in the 3D Arsenal!]</English>
+		<Russian>Основное оружие: Mk48 +6маг.X100патр.&lt;br /&gt;Вторичное оружие: Glock17 +4маг.&lt;br /&gt;Рюкзак: 1шт.&lt;br /&gt;Перевязочный пакет: 3шт.&lt;br /&gt;[Дополнительное снаряжение и обвес оружия доступны в 3D Арсенале!]</Russian>
+	</Key>
+	<!-- Sniper -->  
+	<Key ID="AFSlotsSniper1">
+		<Original>Primary weapon: M24 +15mags.&lt;br /&gt;Secondary weapon: 4-five.45ACP +4mags.&lt;br /&gt;HE: М67 x2.&lt;br /&gt;Smoke grenades: White x4.&lt;br /&gt;Bandages: x3.&lt;br /&gt;[Additional equipment and weapon kits are available in the 3D Arsenal!]</Original>
+		<English>Primary weapon: M24 +15mags.&lt;br /&gt;Secondary weapon: 4-five.45ACP +4mags.&lt;br /&gt;HE: М67 x2.&lt;br /&gt;Smoke grenades: White x4.&lt;br /&gt;Bandages: x3.&lt;br /&gt;[Additional equipment and weapon kits are available in the 3D Arsenal!]</English>
+		<Russian>Основное оружие: M24 +15маг.&lt;br /&gt;Вторичное оружие: 4-five.45ACP +4маг.&lt;br /&gt;Граната оск: М67 2шт.&lt;br /&gt;Дымовые: Белый 4шт.&lt;br /&gt;Перевязочный пакет: 3шт.&lt;br /&gt;[Дополнительное снаряжение и обвес оружия доступны в 3D Арсенале!]</Russian>
+	</Key>
+	<Key ID="AFSlotsSniper2">
+		<Original>Primary weapon: M40A5 +15mags.&lt;br /&gt;Secondary weapon: 4-five.45ACP +4mags.&lt;br /&gt;Smoke grenades: White x1.&lt;br /&gt;Bandages: x3.&lt;br /&gt;[Additional equipment and weapon kits are available in the 3D Arsenal!]</Original>
+		<English>Primary weapon: M40A5 +15mags.&lt;br /&gt;Secondary weapon: 4-five.45ACP +4mags.&lt;br /&gt;Smoke grenades: White x1.&lt;br /&gt;Bandages: x3.&lt;br /&gt;[Additional equipment and weapon kits are available in the 3D Arsenal!]</English>
+		<Russian>Основное оружие: M40A5 +15маг.&lt;br /&gt;Вторичное оружие: 4-five.45ACP +4маг.&lt;br /&gt;Дымовые: Белый 1шт.&lt;br /&gt;Перевязочный пакет: 3шт.&lt;br /&gt;[Дополнительное снаряжение и обвес оружия доступны в 3D Арсенале!]</Russian>
+	</Key>
+	<Key ID="AFSlotsSniper3">
+		<Original>Primary weapon: G22 +10mags.&lt;br /&gt;Secondary weapon: 4-five.45ACP +4mags.&lt;br /&gt;Smoke grenades: White x1.&lt;br /&gt;Bandages: x3.&lt;br /&gt;[Additional equipment and weapon kits are available in the 3D Arsenal!]</Original>
+		<English>Primary weapon: G22 +10mags.&lt;br /&gt;Secondary weapon: 4-five.45ACP +4mags.&lt;br /&gt;Smoke grenades: White x1.&lt;br /&gt;Bandages: x3.&lt;br /&gt;[Additional equipment and weapon kits are available in the 3D Arsenal!]</English>
+		<Russian>Основное оружие: G22 +10маг.&lt;br /&gt;Вторичное оружие: 4-five.45ACP +4маг.&lt;br /&gt;Дымовые: Белый 1шт.&lt;br /&gt;Перевязочный пакет: 3шт.&lt;br /&gt;[Дополнительное снаряжение и обвес оружия доступны в 3D Арсенале!]</Russian>
+	</Key>
+	<Key ID="AFSlotsSniper4">
+		<Original>Primary weapon: M2010 +15mags.&lt;br /&gt;Secondary weapon: 4-five.45ACP +4mags.&lt;br /&gt;Smoke grenades: White x1.&lt;br /&gt;Bandages: x3.&lt;br /&gt;[Additional equipment and weapon kits are available in the 3D Arsenal!]</Original>
+		<English>Primary weapon: M2010 +15mags.&lt;br /&gt;Secondary weapon: 4-five.45ACP +4mags.&lt;br /&gt;Smoke grenades: White x1.&lt;br /&gt;Bandages: x3.&lt;br /&gt;[Additional equipment and weapon kits are available in the 3D Arsenal!]</English>
+		<Russian>Основное оружие: M2010 +15маг.&lt;br /&gt;Вторичное оружие: 4-five.45ACP +4маг.&lt;br /&gt;Дымовые: Белый 1шт.&lt;br /&gt;Перевязочный пакет: 3шт.&lt;br /&gt;[Дополнительное снаряжение и обвес оружия доступны в 3D Арсенале!]</Russian>
+	</Key>
+	<Key ID="AFSlotsSniper5">
+		<Original>Primary weapon: T-5000 ORSIS +15mags.&lt;br /&gt;Secondary weapon: 4-five.45ACP +4mags.&lt;br /&gt;Smoke grenades: White x1.&lt;br /&gt;Bandages: x3.&lt;br /&gt;[Additional equipment and weapon kits are available in the 3D Arsenal!]</Original>
+		<English>Primary weapon: T-5000 ORSIS +15mags.&lt;br /&gt;Secondary weapon: 4-five.45ACP +4mags.&lt;br /&gt;Smoke grenades: White x1.&lt;br /&gt;Bandages: x3.&lt;br /&gt;[Additional equipment and weapon kits are available in the 3D Arsenal!]</English>
+		<Russian>Основное оружие: T-5000 ОРСИС +15маг.&lt;br /&gt;Вторичное оружие: 4-five.45ACP +4маг.&lt;br /&gt;Дымовые: Белый 1шт.&lt;br /&gt;Перевязочный пакет: 3шт.&lt;br /&gt;[Дополнительное снаряжение и обвес оружия доступны в 3D Арсенале!]</Russian>
+	</Key>
+	<!-- Rifleman -->  
+	<Key ID="AFSlotsRifleman1">
+		<Original>Primary weapon: М4А1 +12mags.&lt;br /&gt;Secondary weapon: М9 +2mags.&lt;br /&gt;HE: М67 x2.&lt;br /&gt;Smoke grenades: White x1.&lt;br /&gt;Bandages: x3.&lt;br /&gt;&lt;br /&gt;[Additional equipment and weapon kits are available in the 3D Arsenal!]</Original>
+		<English>Primary weapon: М4А1 +12mags.&lt;br /&gt;Secondary weapon: М9 +2mags.&lt;br /&gt;HE: М67 x2.&lt;br /&gt;Smoke grenades: White x1.&lt;br /&gt;Bandages: x3.&lt;br /&gt;&lt;br /&gt;[Additional equipment and weapon kits are available in the 3D Arsenal!]</English>
+		<Russian>Основное оружие: М4А1 +12маг.&lt;br /&gt;Вторичное оружие: М9 +2маг.&lt;br /&gt;Граната оск: М67 2шт.&lt;br /&gt;Дымовые: Белый 1шт.&lt;br /&gt;Перевязочный пакет: 3шт.&lt;br /&gt;&lt;br /&gt;[Дополнительное снаряжение и обвес оружия доступны в 3D Арсенале!]</Russian>
+	</Key>
+	<Key ID="AFSlotsRifleman2">
+		<Original>Primary weapon: М16A4 +12mags.&lt;br /&gt;Secondary weapon: М9 +2mags.&lt;br /&gt;HE: М67 x2.&lt;br /&gt;Smoke grenades: White x1.&lt;br /&gt;Bandages: x3.&lt;br /&gt;&lt;br /&gt;[Additional equipment and weapon kits are available in the 3D Arsenal!]</Original>
+		<English>Primary weapon: М16A4 +12mags.&lt;br /&gt;Secondary weapon: М9 +2mags.&lt;br /&gt;HE: М67 x2.&lt;br /&gt;Smoke grenades: White x1.&lt;br /&gt;Bandages: x3.&lt;br /&gt;&lt;br /&gt;[Additional equipment and weapon kits are available in the 3D Arsenal!]</English>
+		<Russian>Основное оружие: М16A4 +12маг.&lt;br /&gt;Вторичное оружие: М9 +2маг.&lt;br /&gt;Граната оск: М67 2шт.&lt;br /&gt;Дымовые: Белый 1шт.&lt;br /&gt;Перевязочный пакет: 3шт.&lt;br /&gt;&lt;br /&gt;[Дополнительное снаряжение и обвес оружия доступны в 3D Арсенале!]</Russian>
+	</Key>
+	<Key ID="AFSlotsRifleman3">
+		<Original>Primary weapon: HK416 +12mags.&lt;br /&gt;Secondary weapon: М9 +2mags.&lt;br /&gt;HE: М67 x2.&lt;br /&gt;Smoke grenades: White x1.&lt;br /&gt;Bandages: x3.&lt;br /&gt;&lt;br /&gt;[Additional equipment and weapon kits are available in the 3D Arsenal!]</Original>
+		<English>Primary weapon: HK416 +12mags.&lt;br /&gt;Secondary weapon: М9 +2mags.&lt;br /&gt;HE: М67 x2.&lt;br /&gt;Smoke grenades: White x1.&lt;br /&gt;Bandages: x3.&lt;br /&gt;&lt;br /&gt;[Additional equipment and weapon kits are available in the 3D Arsenal!]</English>
+		<Russian>Основное оружие: HK416 +12маг.&lt;br /&gt;Вторичное оружие: М9 +2маг.&lt;br /&gt;Граната оск: М67 2шт.&lt;br /&gt;Дымовые: Белый 1шт.&lt;br /&gt;Перевязочный пакет: 3шт.&lt;br /&gt;&lt;br /&gt;[Дополнительное снаряжение и обвес оружия доступны в 3D Арсенале!]</Russian>
+	</Key>
+	<Key ID="AFSlotsRifleman4">
+		<Original>Primary weapon: FN 2000 +12mags.&lt;br /&gt;Secondary weapon: М9 +2mags.&lt;br /&gt;HE: М67 x2.&lt;br /&gt;Smoke grenades: White x1.&lt;br /&gt;Bandages: x3.&lt;br /&gt;&lt;br /&gt;[Additional equipment and weapon kits are available in the 3D Arsenal!]</Original>
+		<English>Primary weapon: FN 2000 +12mags.&lt;br /&gt;Secondary weapon: М9 +2mags.&lt;br /&gt;HE: М67 x2.&lt;br /&gt;Smoke grenades: White x1.&lt;br /&gt;Bandages: x3.&lt;br /&gt;&lt;br /&gt;[Additional equipment and weapon kits are available in the 3D Arsenal!]</English>
+		<Russian>Основное оружие: FN 2000 +12маг.&lt;br /&gt;Вторичное оружие: М9 +2маг.&lt;br /&gt;Граната оск: М67 2шт.&lt;br /&gt;Дымовые: Белый 1шт.&lt;br /&gt;Перевязочный пакет: 3шт.&lt;br /&gt;&lt;br /&gt;[Дополнительное снаряжение и обвес оружия доступны в 3D Арсенале!]</Russian>
+	</Key>
+	<Key ID="AFSlotsRifleman5">
+		<Original>Primary weapon: FN SCAR-L +12mags.&lt;br /&gt;Secondary weapon: М9 +2mags.&lt;br /&gt;HE: М67 x2.&lt;br /&gt;Smoke grenades: White x1.&lt;br /&gt;Bandages: x3.&lt;br /&gt;&lt;br /&gt;[Additional equipment and weapon kits are available in the 3D Arsenal!]</Original>
+		<English>Primary weapon: FN SCAR-L +12mags.&lt;br /&gt;Secondary weapon: М9 +2mags.&lt;br /&gt;HE: М67 x2.&lt;br /&gt;Smoke grenades: White x1.&lt;br /&gt;Bandages: x3.&lt;br /&gt;&lt;br /&gt;[Additional equipment and weapon kits are available in the 3D Arsenal!]t</English>
+		<Russian>Основное оружие: FN SCAR-L +12маг.&lt;br /&gt;Вторичное оружие: М9 +2маг.&lt;br /&gt;Граната оск: М67 2шт.&lt;br /&gt;Дымовые: Белый 1шт.&lt;br /&gt;Перевязочный пакет: 3шт.&lt;br /&gt;&lt;br /&gt;[Дополнительное снаряжение и обвес оружия доступны в 3D Арсенале!]</Russian>
+	</Key>
+	<!-- Breacher -->  
+	<Key ID="AFSlotsBreacher1">
+		<Original>Primary weapon: MP5A5 +8mags.&lt;br /&gt;Secondary weapon: Glock17 +2mags.&lt;br /&gt;HE: М67 x1.&lt;br /&gt;Flash grenade: М84 x2.&lt;br /&gt;Bandages: x3.&lt;br /&gt;&lt;br /&gt;[Additional equipment and weapon kits are available in the 3D Arsenal!]</Original>
+		<English>Primary weapon: MP5A5 +8mags.&lt;br /&gt;Secondary weapon: Glock17 +2mags.&lt;br /&gt;HE: М67 x1.&lt;br /&gt;Flash grenade: М84 x2.&lt;br /&gt;Bandages: x3.&lt;br /&gt;&lt;br /&gt;[Additional equipment and weapon kits are available in the 3D Arsenal!]</English>
+		<Russian>Основное оружие: MP5A5 +8маг.&lt;br /&gt;Вторичное оружие: Glock17 +2маг.&lt;br /&gt;Граната оск: М67 1шт.&lt;br /&gt;Граната светошумовая: М84 2шт.&lt;br /&gt;Перевязочный пакет: 3шт.&lt;br /&gt;&lt;br /&gt;[Дополнительное снаряжение и обвес оружия доступны в 3D Арсенале!]</Russian>
+	</Key>
+	<Key ID="AFSlotsBreacher2">
+		<Original>Primary weapon: M590 8rnd +8mags.(cartridge shot)&lt;br /&gt;Secondary weapon: Glock17 +2mags.&lt;br /&gt;HE: М67 x2.&lt;br /&gt;Flash grenade: М84 x2.&lt;br /&gt;Bandages: x3.&lt;br /&gt;&lt;br /&gt;[Additional equipment and weapon kits are available in the 3D Arsenal!]</Original>
+		<English>Primary weapon: M590 8rnd +8mags.(cartridge shot)&lt;br /&gt;Secondary weapon: Glock17 +2mags.&lt;br /&gt;HE: М67 x2.&lt;br /&gt;Flash grenade: М84 x2.&lt;br /&gt;Bandages: x3.&lt;br /&gt;&lt;br /&gt;[Additional equipment and weapon kits are available in the 3D Arsenal!]</English>
+		<Russian>Основное оружие: M590 8rnd +8маг.(дробь)&lt;br /&gt;Вторичное оружие: Glock17 +2маг.&lt;br /&gt;Граната оск: М67 2шт.&lt;br /&gt;Граната светошумовая: М84 2шт.&lt;br /&gt;Перевязочный пакет: 3шт.&lt;br /&gt;&lt;br /&gt;[Дополнительное снаряжение и обвес оружия доступны в 3D Арсенале!]</Russian>
+	</Key>
+	<Key ID="AFSlotsBreacher3">
+		<Original>Primary weapon: M590 5rnd +13mags.(cartridge shot)&lt;br /&gt;Secondary weapon: Glock17 +2mags.&lt;br /&gt;HE: М67 x2.&lt;br /&gt;Flash grenade: М84 x2.&lt;br /&gt;Bandages: x3.&lt;br /&gt;&lt;br /&gt;[Additional equipment and weapon kits are available in the 3D Arsenal!]</Original>
+		<English>Primary weapon: M590 5rnd +13mags.(cartridge shot)&lt;br /&gt;Secondary weapon: Glock17 +2mags.&lt;br /&gt;HE: М67 x2.&lt;br /&gt;Flash grenade: М84 x2.&lt;br /&gt;Bandages: x3.&lt;br /&gt;&lt;br /&gt;[Additional equipment and weapon kits are available in the 3D Arsenal!]</English>
+		<Russian>Основное оружие: M590 5rnd +13маг.(дробь)&lt;br /&gt;Вторичное оружие: Glock17 +2маг.&lt;br /&gt;Граната оск: М67 2шт.&lt;br /&gt;Граната светошумовая: М84 2шт.&lt;br /&gt;Перевязочный пакет: 3шт.&lt;br /&gt;&lt;br /&gt;[Дополнительное снаряжение и обвес оружия доступны в 3D Арсенале!]</Russian>
+	</Key>
+	<Key ID="AFSlotsBreacher4">
+		<Original>Primary weapon: XM1014 +8mags.(cartridge shot)&lt;br /&gt;Secondary weapon: Glock17 +2mags.&lt;br /&gt;HE: М67 x2.&lt;br /&gt;Flash grenade: М84 x2.&lt;br /&gt;Bandages: x3.&lt;br /&gt;&lt;br /&gt;[Additional equipment and weapon kits are available in the 3D Arsenal!]</Original>
+		<English>Primary weapon: XM1014 +8mags.(cartridge shot)&lt;br /&gt;Secondary weapon: Glock17 +2mags.&lt;br /&gt;HE: М67 x2.&lt;br /&gt;Flash grenade: М84 x2.&lt;br /&gt;Bandages: x3.&lt;br /&gt;&lt;br /&gt;[Additional equipment and weapon kits are available in the 3D Arsenal!]</English>
+		<Russian>Основное оружие: XM1014 +12маг.(дробь)&lt;br /&gt;Вторичное оружие: Glock17 +2маг.&lt;br /&gt;Граната оск: М67 2шт.&lt;br /&gt;Граната светошумовая: М84 2шт.&lt;br /&gt;Перевязочный пакет: 3шт.&lt;br /&gt;&lt;br /&gt;[Дополнительное снаряжение и обвес оружия доступны в 3D Арсенале!]</Russian>
+	</Key>
+	<Key ID="AFSlotsBreacher5">
+		<Original>Primary weapon: M9+SHIELD +10mags.&lt;br /&gt;Secondary weapon: Glock17 +2mags.&lt;br /&gt;HE: М67 x2.&lt;br /&gt;Flash grenade: М84 x4.&lt;br /&gt;Bandages: x3.&lt;br /&gt;&lt;br /&gt;[Additional equipment and weapon kits are available in the 3D Arsenal!]</Original>
+		<English>Primary weapon: M9+SHIELD +10mags.&lt;br /&gt;Secondary weapon: Glock17 +2mags.&lt;br /&gt;HE: М67 x2.&lt;br /&gt;Flash grenade: М84 x4.&lt;br /&gt;Bandages: x3.&lt;br /&gt;&lt;br /&gt;[Additional equipment and weapon kits are available in the 3D Arsenal!]</English>
+		<Russian>Основное оружие: M9+ЩИТ +10маг.&lt;br /&gt;Вторичное оружие: Glock17 +2маг.&lt;br /&gt;Граната оск: М67 2шт.&lt;br /&gt;Граната светошумовая: М84 4шт.&lt;br /&gt;Перевязочный пакет: 3шт.&lt;br /&gt;&lt;br /&gt;[Дополнительное снаряжение и обвес оружия доступны в 3D Арсенале!]</Russian>
+	</Key>
+	<!-- Crewman -->  
+	<Key ID="AFSlotsCrewman1">
+		<Original>Primary weapon: PWD2000 +8mags.&lt;br /&gt;Secondary weapon: M9 +2mags.&lt;br /&gt;HE: М67 x1.&lt;br /&gt;Smoke grenades: Blue x1.&lt;br /&gt;Bandages: x3.&lt;br /&gt;&lt;br /&gt;[Additional equipment and weapon kits are available in the 3D Arsenal!]</Original>
+		<English>Primary weapon: PWD2000 +8mags.&lt;br /&gt;Secondary weapon: M9 +2mags.&lt;br /&gt;HE: М67 x1.&lt;br /&gt;Smoke grenades: Blue x1.&lt;br /&gt;Bandages: x3.&lt;br /&gt;&lt;br /&gt;[Additional equipment and weapon kits are available in the 3D Arsenal!]</English>
+		<Russian>Основное оружие: PWD2000 +8маг.&lt;br /&gt;Вторичное оружие: M9 +2маг.&lt;br /&gt;Граната оск: М67 1шт.&lt;br /&gt;Дымовые: Синий 1шт.&lt;br /&gt;Перевязочный пакет: 3шт.&lt;br /&gt;&lt;br /&gt;[Дополнительное снаряжение и обвес оружия доступны в 3D Арсенале!]</Russian>
+	</Key>
+	<Key ID="AFSlotsCrewman2">
+		<Original>Primary weapon: SMG Vermin (KRISS) +8mags.&lt;br /&gt;Secondary weapon: M9 +2mags.&lt;br /&gt;HE: М67 x1.&lt;br /&gt;Smoke grenades: Blue x1.&lt;br /&gt;Bandages: x3.&lt;br /&gt;&lt;br /&gt;[Additional equipment and weapon kits are available in the 3D Arsenal!]</Original>
+		<English>Primary weapon: SMG Vermin (KRISS) +8mags.&lt;br /&gt;Secondary weapon: M9 +2mags.&lt;br /&gt;HE: М67 x1.&lt;br /&gt;Smoke grenades: Blue x1.&lt;br /&gt;Bandages: x3.&lt;br /&gt;&lt;br /&gt;[Additional equipment and weapon kits are available in the 3D Arsenal!]</English>
+		<Russian>Основное оружие: ПП Вермин (KRISS) +8маг.&lt;br /&gt;Вторичное оружие: M9 +2маг.&lt;br /&gt;Граната оск: М67 1шт.&lt;br /&gt;Дымовые: Синий 1шт.&lt;br /&gt;Перевязочный пакет: 3шт.&lt;br /&gt;&lt;br /&gt;[Дополнительное снаряжение и обвес оружия доступны в 3D Арсенале!]</Russian>
+	</Key>
+	<Key ID="AFSlotsCrewman3">
+		<Original>Primary weapon: MP5A5 +8mags.&lt;br /&gt;Secondary weapon: M9 +2mags.&lt;br /&gt;HE: М67 x1.&lt;br /&gt;Smoke grenades: Blue x1.&lt;br /&gt;Bandages: x3.&lt;br /&gt;&lt;br /&gt;[Additional equipment and weapon kits are available in the 3D Arsenal!]</Original>
+		<English>Primary weapon: MP5A5 +8mags.&lt;br /&gt;Secondary weapon: M9 +2mags.&lt;br /&gt;HE: М67 x1.&lt;br /&gt;Smoke grenades: Blue x1.&lt;br /&gt;Bandages: x3.&lt;br /&gt;&lt;br /&gt;[Additional equipment and weapon kits are available in the 3D Arsenal!]</English>
+		<Russian>Основное оружие: MP5A5 +8маг.&lt;br /&gt;Вторичное оружие: M9 +2маг.&lt;br /&gt;Граната оск: М67 1шт.&lt;br /&gt;Дымовые: Синий 1шт.&lt;br /&gt;Перевязочный пакет: 3шт.&lt;br /&gt;&lt;br /&gt;[Дополнительное снаряжение и обвес оружия доступны в 3D Арсенале!]</Russian>
+	</Key>
+	<Key ID="AFSlotsCrewman4">
+		<Original>Primary weapon: HK MP7 +9mags.&lt;br /&gt;Secondary weapon: M9 +2mags.&lt;br /&gt;HE: М67 x1.&lt;br /&gt;Smoke grenades: Blue x1.&lt;br /&gt;Bandages: x3.&lt;br /&gt;&lt;br /&gt;[Additional equipment and weapon kits are available in the 3D Arsenal!]</Original>
+		<English>Primary weapon: HK MP7 +9mags.&lt;br /&gt;Secondary weapon: M9 +2mags.&lt;br /&gt;HE: М67 x1.&lt;br /&gt;Smoke grenades: Blue x1.&lt;br /&gt;Bandages: x3.&lt;br /&gt;&lt;br /&gt;[Additional equipment and weapon kits are available in the 3D Arsenal!]</English>
+		<Russian>Основное оружие: HK MP7 +9маг.&lt;br /&gt;Вторичное оружие: M9 +2маг.&lt;br /&gt;Граната оск: М67 1шт.&lt;br /&gt;Дымовые: Синий 1шт.&lt;br /&gt;Перевязочный пакет: 3шт.&lt;br /&gt;&lt;br /&gt;[Дополнительное снаряжение и обвес оружия доступны в 3D Арсенале!]</Russian>
+	</Key>
+	<Key ID="AFSlotsCrewman5">
+		<Original>Primary weapon: HK MP5K +8mags.&lt;br /&gt;Secondary weapon: M9 +2mags.&lt;br /&gt;HE: М67 x1.&lt;br /&gt;Smoke grenades: Blue x1.&lt;br /&gt;Bandages: x3.&lt;br /&gt;&lt;br /&gt;[Additional equipment and weapon kits are available in the 3D Arsenal!]</Original>
+		<English>Primary weapon: HK MP5K +8mags.&lt;br /&gt;Secondary weapon: M9 +2mags.&lt;br /&gt;HE: М67 x1.&lt;br /&gt;Smoke grenades: Blue x1.&lt;br /&gt;Bandages: x3.&lt;br /&gt;&lt;br /&gt;[Additional equipment and weapon kits are available in the 3D Arsenal!]</English>
+		<Russian>Основное оружие: HK MP5K +8маг.&lt;br /&gt;Вторичное оружие: M9 +2маг.&lt;br /&gt;Граната оск: М67 1шт.&lt;br /&gt;Дымовые: Синий 1шт.&lt;br /&gt;Перевязочный пакет: 3шт.&lt;br /&gt;&lt;br /&gt;[Дополнительное снаряжение и обвес оружия доступны в 3D Арсенале!]</Russian>
+	</Key>
+	<!-- Pilot -->  
+	<Key ID="AFSlotsPilot1">
+		<Original>Primary weapon: HK MP5A5 +3mags.&lt;br /&gt;Secondary weapon: M9 +2mags.&lt;br /&gt;Smoke grenades: Green x1. Red x1. White x2. NSP-N(Green) x2. Hand flare(Green) x2.&lt;br /&gt;Bandages: x4.&lt;br /&gt;&lt;br /&gt;[Additional equipment and weapon kits are available in the 3D Arsenal!]</Original>
+		<English>Primary weapon: HK MP5A5 +3mags.&lt;br /&gt;Secondary weapon: M9 +2mags.&lt;br /&gt;Smoke grenades: Green x1. Red x1. White x2. NSP-N(Green) x2. Hand flare(Green) x2.&lt;br /&gt;Bandages: x4.&lt;br /&gt;&lt;br /&gt;[Additional equipment and weapon kits are available in the 3D Arsenal!]</English>
+		<Russian>Основное оружие: HK MP5A5 +3маг.&lt;br /&gt;Вторичное оружие: M9 +2маг.&lt;br /&gt;Дымовые: Зелёный 1шт. Красный 1шт. Белый 2шт. НСП-Н(Зелёный) 2шт. ХИС(Зелёный) 2шт.&lt;br /&gt;Перевязочный пакет: 4шт.&lt;br /&gt;&lt;br /&gt;[Дополнительное снаряжение и обвес оружия доступны в 3D Арсенале!]</Russian>
+	</Key>
+	<Key ID="AFSlotsPilot2">
+		<Original>Primary weapon: HK MP5A5 +3mags.&lt;br /&gt;Secondary weapon: M9 +2mags.&lt;br /&gt;Smoke grenades: Green x1. Red x1. White x2. NSP-N(Green) x2. Hand flare(Green) x2.&lt;br /&gt;Bandages: x4.&lt;br /&gt;&lt;br /&gt;[Additional equipment and weapon kits are available in the 3D Arsenal!]</Original>
+		<English>Primary weapon: HK MP5A5 +3mags.&lt;br /&gt;Secondary weapon: M9 +2mags.&lt;br /&gt;Smoke grenades: Green x1. Red x1. White x2. NSP-N(Green) x2. Hand flare(Green) x2.&lt;br /&gt;Bandages: x4.&lt;br /&gt;&lt;br /&gt;[Additional equipment and weapon kits are available in the 3D Arsenal!]</English>
+		<Russian>Основное оружие: HK MP5A5 +3маг.&lt;br /&gt;Вторичное оружие: M9 +2маг.&lt;br /&gt;Дымовые: Зелёный 1шт. Красный 1шт. Белый 2шт. НСП-Н(Зелёный) 2шт. ХИС(Зелёный) 2шт.&lt;br /&gt;Перевязочный пакет: 4шт.&lt;br /&gt;&lt;br /&gt;[Дополнительное снаряжение и обвес оружия доступны в 3D Арсенале!]</Russian>
+	</Key>
+	<Key ID="AFSlotsPilot3">
+		<Original>Primary weapon: HK MP5A5 +3mags.&lt;br /&gt;Secondary weapon: M9 +2mags.&lt;br /&gt;Smoke grenades: Green x1. Red x1. White x2. NSP-N(Green) x2. Hand flare(Green) x2.&lt;br /&gt;Bandages: x4.&lt;br /&gt;&lt;br /&gt;[Additional equipment and weapon kits are available in the 3D Arsenal!]</Original>
+		<English>Primary weapon: HK MP5A5 +3mags.&lt;br /&gt;Secondary weapon: M9 +2mags.&lt;br /&gt;Smoke grenades: Green x1. Red x1. White x2. NSP-N(Green) x2. Hand flare(Green) x2.&lt;br /&gt;Bandages: x4.&lt;br /&gt;&lt;br /&gt;[Additional equipment and weapon kits are available in the 3D Arsenal!]</English>
+		<Russian>Основное оружие: HK MP5A5 +3маг.&lt;br /&gt;Вторичное оружие: M9 +2маг.&lt;br /&gt;Дымовые: Зелёный 1шт. Красный 1шт. Белый 2шт. НСП-Н(Зелёный) 2шт. ХИС(Зелёный) 2шт.&lt;br /&gt;Перевязочный пакет: 4шт.&lt;br /&gt;&lt;br /&gt;[Дополнительное снаряжение и обвес оружия доступны в 3D Арсенале!]</Russian>
+	</Key>
+	<Key ID="AFSlotsPilot4">
+		<Original>Primary weapon: NO.&lt;br /&gt;Secondary weapon: M9 +2mags.&lt;br /&gt;Grenade: IR x1.&lt;br /&gt;Smoke grenades:Green x1. Red x1. NSP-N(Green) x1.&lt;br /&gt;Bandages: x2.&lt;br /&gt;Parachute.&lt;br /&gt;&lt;br /&gt;[Additional equipment and weapon kits are available in the 3D Arsenal!]</Original>
+		<English>Primary weapon: NO.&lt;br /&gt;Secondary weapon: M9 +2mags.&lt;br /&gt;Grenade: IR x1.&lt;br /&gt;Smoke grenades:Green x1. Red x1. NSP-N(Green) x1.&lt;br /&gt;Bandages: x2.&lt;br /&gt;Parachute.&lt;br /&gt;&lt;br /&gt;[Additional equipment and weapon kits are available in the 3D Arsenal!]</English>
+		<Russian>Основное оружие: НЕТ.&lt;br /&gt;Вторичное оружие: M9 +2маг.&lt;br /&gt;Граната: IR 1шт.&lt;br /&gt;Дымовые:Зелёный 1шт. Красный 1шт. НСП-Н(Зелёный) 1шт.&lt;br /&gt;Перевязочный пакет: 2шт.&lt;br /&gt;Парашут управляемый.&lt;br /&gt;&lt;br /&gt;[Дополнительное снаряжение и обвес оружия доступны в 3D Арсенале!]</Russian>
+	</Key>
+	<Key ID="AFSlotsPilot5">
+		<Original>Primary weapon: NO.&lt;br /&gt;Secondary weapon: M9 +2mags.&lt;br /&gt;Grenade: IR x1.&lt;br /&gt;Smoke grenades:Green x1. Red x1. NSP-N(Green) x1.&lt;br /&gt;Bandages: x2.&lt;br /&gt;Parachute.&lt;br /&gt;&lt;br /&gt;[Additional equipment and weapon kits are available in the 3D Arsenal!]</Original>
+		<English>Primary weapon: NO.&lt;br /&gt;Secondary weapon: M9 +2mags.&lt;br /&gt;Grenade: IR x1.&lt;br /&gt;Smoke grenades:Green x1. Red x1. NSP-N(Green) x1.&lt;br /&gt;Bandages: x2.&lt;br /&gt;Parachute.&lt;br /&gt;&lt;br /&gt;[Additional equipment and weapon kits are available in the 3D Arsenal!]</English>
+		<Russian>Основное оружие: НЕТ.&lt;br /&gt;Вторичное оружие: M9 +2маг.&lt;br /&gt;Граната: IR 1шт.&lt;br /&gt;Дымовые:Зелёный 1шт. Красный 1шт. НСП-Н(Зелёный) 1шт.&lt;br /&gt;Перевязочный пакет: 2шт.&lt;br /&gt;Парашут управляемый.&lt;br /&gt;&lt;br /&gt;[Дополнительное снаряжение и обвес оружия доступны в 3D Арсенале!]</Russian>
+	</Key>
+</package>
+
+<Package name="KatletkaRallypoints">
+  	<Key ID="RallypointCreated">
+		<Original>Squad leader created new rally point</Original>
+		<English>Squad leader created new rally point</English>
+		<Russian>Командир отряда установил новую точку сбора</Russian>
+	</Key>
+	<Key ID="RallypointDeleted">
+		<Original>Squad leader removed rally point</Original>
+		<English>Squad leader removed rally point</English>
+		<Russian>Командир отряда удалил точку сбора</Russian>
+	</Key>
+	<Key ID="RallypointEnemyNearby">
+		<Original>There is an enemy nearby!</Original>
+		<English>There is an enemy nearby!</English>
+		<Russian>Враг рядом!</Russian>
+	</Key>
+	<Key ID="RallypointCreatedYou">
+		<Original>You have created rally point</Original>
+		<English>You have created rally point</English>
+		<Russian>Вы установили точку сбора</Russian>
+	</Key>
+	<Key ID="RallypointRemove">
+		<Original>Remove rally point</Original>
+		<English>Remove rally point</English>
+		<Russian>Удалить точку сбора</Russian>
+	</Key>
+	<Key ID="RallypointCreate">
+		<Original>Create rally point</Original>
+		<English>Create rally point</English>
+		<Russian>Установить точку сбора</Russian>
+	</Key>
+	<Key ID="RallypointRespawnPoint">
+		<Original>Squad rally point</Original>
+		<English>Squad rally point</English>
+		<Russian>Точка сбора отряда</Russian>
+	</Key>
+</package>
+
+<Package name="Bee_EarplugsScript">
+	<Key ID="Ear_On">
+		<Original>Earplugs On</Original>
+		<English>Earplugs On</English>
+		<Russian>Беруши одеты</Russian>
+	</Key>
+	<Key ID="Ear_Off">
+		<Original>Earplugs Off</Original>
+		<English>Earplugs Off</English>
+		<Russian>Беруши сняты</Russian>
+	</Key>
+</package>
+
+<Package name="Kat_VehRules">
+	<Key ID="VR_Confirmed">
+		<Original>Confirmed</Original>
+		<English>Confirmed</English>
+		<Russian>Принял</Russian>
+	</Key>
+	<Key ID="VR_Out">
+		<Original>Refused to confirm</Original>
+		<English>Refused to confirm</English>
+		<Russian>Отказался принять</Russian>
+	</Key>
+	<Key ID="VR_Pilot">
+		<Original>Pilot</Original>
+		<English>Pilot</English>
+		<Russian>Пилот</Russian>
+	</Key>
+	<Key ID="VR_Crewman">
+		<Original>Crewman</Original>
+		<English>Crewman</English>
+		<Russian>Член экипажа</Russian>
+	</Key>
+	<Key ID="VR_Rules">
+		<Original>server rules</Original>
+		<English>server rules</English>
+		<Russian>правила сервера</Russian>
+	</Key>
+	<Key ID="VR_VehInfo">
+		<Original>&lt;br/&gt;&lt;img size='4' color='#595923' align='center' image='pictures\hint_pic\vehiclegui_ca.paa' /&gt;&lt;br/&gt;&lt;br/&gt;&lt;t size='1.2' color='#99ffffff' &gt;Key&lt;/t&gt;&lt;t size='1.3' color='#ff0000' &gt; 'right Alt' &lt;/t&gt;&lt;t size='1.2' color='#99ffffff' &gt;displays the crew list.&lt;/t&gt;&lt;br/&gt;&lt;br/&gt;&lt;t size='1.2' color='#99ffffff' &gt;When scrolling&lt;/t&gt;&lt;br/&gt;&lt;t size='1.4' color='#ff0000' &gt; 'Mouse wheel' &lt;/t&gt;&lt;br/&gt;&lt;t size='1.2' color='#99ffffff' &gt;paragraph&lt;/t&gt;&lt;br/&gt;&lt;t size='1.4' color='#ff0000' &gt; 'Settings' &lt;/t&gt;&lt;br/&gt;&lt;t size='1.2' color='#99ffffff' &gt;adjusts visibility distance.&lt;/t&gt;&lt;br/&gt;&lt;br/&gt;&lt;t size='1.2' color='#99ffffff' &gt;Use&lt;/t&gt;&lt;br/&gt;&lt;t size='1.2' color='#f87517' &gt; 'Vehicle channel' &lt;/t&gt;&lt;br/&gt;&lt;t size='1.2' color='#99ffffff' &gt;for communication with crew.&lt;/t&gt;&lt;br/&gt;&lt;br/&gt;</Original>
+		<English>&lt;br/&gt;&lt;img size='4' color='#595923' align='center' image='pictures\hint_pic\vehiclegui_ca.paa' /&gt;&lt;br/&gt;&lt;br/&gt;&lt;t size='1.2' color='#99ffffff' &gt;Key&lt;/t&gt;&lt;t size='1.3' color='#ff0000' &gt; 'right Alt' &lt;/t&gt;&lt;t size='1.2' color='#99ffffff' &gt;displays the crew list.&lt;/t&gt;&lt;br/&gt;&lt;br/&gt;&lt;t size='1.2' color='#99ffffff' &gt;When scrolling&lt;/t&gt;&lt;br/&gt;&lt;t size='1.4' color='#ff0000' &gt; 'Mouse wheel' &lt;/t&gt;&lt;br/&gt;&lt;t size='1.2' color='#99ffffff' &gt;paragraph&lt;/t&gt;&lt;br/&gt;&lt;t size='1.4' color='#ff0000' &gt; 'Settings' &lt;/t&gt;&lt;br/&gt;&lt;t size='1.2' color='#99ffffff' &gt;adjusts visibility distance.&lt;/t&gt;&lt;br/&gt;&lt;br/&gt;&lt;t size='1.2' color='#99ffffff' &gt;Use&lt;/t&gt;&lt;br/&gt;&lt;t size='1.2' color='#f87517' &gt; 'Vehicle channel' &lt;/t&gt;&lt;br/&gt;&lt;t size='1.2' color='#99ffffff' &gt;for communication with crew.&lt;/t&gt;&lt;br/&gt;&lt;br/&gt;</English>
+		<Russian>&lt;br/&gt;&lt;img size='4' color='#595923' align='center' image='pictures\hint_pic\vehiclegui_ca.paa' /&gt;&lt;br/&gt;&lt;br/&gt;&lt;t size='1.2' color='#99ffffff' &gt;Клавиша&lt;/t&gt;&lt;t size='1.3' color='#ff0000' &gt; 'right Alt' &lt;/t&gt;&lt;t size='1.2' color='#99ffffff' &gt;отображает список экипажа.&lt;/t&gt;&lt;br/&gt;&lt;br/&gt;&lt;t size='1.2' color='#99ffffff' &gt;При прокрутке&lt;/t&gt;&lt;br/&gt;&lt;t size='1.4' color='#ff0000' &gt; 'Колecом мыши' &lt;/t&gt;&lt;br/&gt;&lt;t size='1.2' color='#99ffffff' &gt;пункт&lt;/t&gt;&lt;br/&gt;&lt;t size='1.4' color='#ff0000' &gt; 'Настройки' &lt;/t&gt;&lt;br/&gt;&lt;t size='1.2' color='#99ffffff' &gt;регулирует дистанцию видимости.&lt;/t&gt;&lt;br/&gt;&lt;br/&gt;&lt;t size='1.2' color='#99ffffff' &gt;Используйте&lt;/t&gt;&lt;br/&gt;&lt;t size='1.2' color='#f87517' &gt; 'Транспортный канал' &lt;/t&gt;&lt;br/&gt;&lt;t size='1.2' color='#99ffffff' &gt;для общения с экипажем.&lt;/t&gt;&lt;br/&gt;&lt;br/&gt;</Russian>
+	</Key>
+	<Key ID="VR_GUI_11405">
+		<Original>REFUSE</Original>
+		<English>REFUSE</English>
+		<Russian>ОТКАЗАТЬСЯ</Russian>
+	</Key>
+	<Key ID="VR_GUI_11406">
+		<Original>CONTINUE</Original>
+		<English>CONTINUE</English>
+		<Russian>ПРОДОЛЖИТЬ</Russian>
+	</Key>
+	<Key ID="VR_GUI_11407">
+		<Original>RULES OF THE SERVER ""ARMAFRONT""</Original>
+		<English>RULES OF THE SERVER ""ARMAFRONT""</English>
+		<Russian>ПРАВИЛА ИГРОВОГО СЕРВЕРА ""ARMAFRONT""</Russian>
+	</Key>
+	<Key ID="VR_GUI_11408">
+		<Original>- Proceed in accordance with the selected class. Full interaction with other types of troops.</Original>
+		<English>- Proceed in accordance with the selected class. Full interaction with other types of troops.</English>
+		<Russian>- Действуйте в соответствии с выбранным классом. Полное взаимодействие с другими родами войск.</Russian>
+	</Key>
+	<Key ID="VR_GUI_11409">
+		<Original>- Equipment must comply with the selected class.</Original>
+		<English>- Equipment must comply with the selected class.</English>
+		<Russian>- Экипировка должна соответствовать выбранному классу.</Russian>
+	</Key>
+	<Key ID="VR_GUI_11410">
+		<Original>- Follow the orders of the commander (s).</Original>
+		<English>- Follow the orders of the commander (s).</English>
+		<Russian>- Выполнять приказы командира(ов).</Russian>
+	</Key>
+	<Key ID="VR_GUI_11411">
+		<Original>Full text in the "Rules" tab or by link: &lt;t colorLink='#00ffff'&gt;&lt;a href='http://armafront.com/pravila/'&gt;armafront.com/pravila&lt;/a&gt;&lt;/t&gt; (clickable)</Original>
+		<English>Full text in the "Rules" tab or by link: &lt;t colorLink='#00ffff'&gt;&lt;a href='http://armafront.com/pravila/'&gt;armafront.com/pravila&lt;/a&gt;&lt;/t&gt; (clickable)</English>
+		<Russian>Полный текст во вкладке "Правила" или по адресу: &lt;t colorLink='#00ffff'&gt;&lt;a href='http://armafront.com/pravila/'&gt;armafront.com/pravila&lt;/a&gt;&lt;/t&gt; (кликабельно)</Russian>
+	</Key>
+	<Key ID="VR_GUI_11412">
+		<Original>By clicking "CONTINUE" you agree to the server rules.</Original>
+		<English>By clicking "CONTINUE" you agree to the server rules.</English>
+		<Russian>Нажимая "ПРОДОЛЖИТЬ" ты соглашаешься с правилами сервера.</Russian>
+	</Key>
+</package>
+
+<Key ID="IntroMessage">
+		<Original>Code name: AF Insurgency|| location: Airport "Loy-Manara"</Original>
+		<English>Code name: AF Insurgency|| location: Airport "Loy-Manara"</English>
+		<Russian>Кодовое имя: AF Insurgency || локация: Аэродром "Лой-Манара"</Russian>
+</Key>
+
+<Key ID="VehLockCheck">
+		<Original>Not available for your class / role</Original>
+		<English>Not available for your class / role</English>
+		<Russian>Не доступно для вашего класса / роли</Russian>
+</Key>
+
+<Package name="Kat_QuestDiag">
+	<Key ID="QuestNextBtn">
+			<Original>Yes</Original>
+			<English>Yes</English>
+			<Russian>Да</Russian>
+	</Key>
+	<Key ID="QuestCancelBtn">
+			<Original>No</Original>
+			<English>No</English>
+			<Russian>Нет</Russian>
+	</Key>
+	<Key ID="QuestHeadline">
+			<Original>Confirm</Original>
+			<English>Confirm</English>
+			<Russian>Подтверждение</Russian>
+	</Key>
+	<Key ID="QuestHeadline">
+			<Original>Confirm</Original>
+			<English>Confirm</English>
+			<Russian>Подтверждение</Russian>
+	</Key>
+	<Key ID="QuestQuestion">
+			<Original>Are you sure to do this?</Original>
+			<English>Are you sure to do this?</English>
+			<Russian>Уверены, что хотите сделать это?</Russian>
+	</Key>
+</package>
+
+<Package name="AF_Briefing">
+	<Key ID="AF_Diary_4_Head">
+			<Original>---==  Autors:  ===---</Original>
+			<English>---==  Autors:  ===---</English>
+			<Russian>---==  Авторы:  ===---</Russian>
+	</Key>
+	<Key ID="AF_Diary_4">
+			<Original>
+Авторы:&lt;br /&gt;
+Dreamcast&lt;br /&gt;
+Katletka&lt;br /&gt;
+Пчёлка=Ъ&lt;br /&gt;
+ZeroAinz&lt;br /&gt;
+&lt;br /&gt;
+Scripts of the following authors were used and tweaked:&lt;br /&gt;
+Joris-Jan van 't Land&lt;br /&gt;
+Killzone_Kid&lt;br /&gt;
+Seth Duda&lt;br /&gt;
+SOLDAT1C&lt;br /&gt;
+Brian Sweeney - [EPD] Brian&lt;br /&gt;
+Whiztler&lt;br /&gt;
+Zooloo75/Stealthstick
+			</Original>
+			<English>
+Авторы:&lt;br /&gt;
+Dreamcast&lt;br /&gt;
+Katletka&lt;br /&gt;
+Пчёлка=Ъ&lt;br /&gt;
+ZeroAinz&lt;br /&gt;
+&lt;br /&gt;
+Scripts of the following authors were used and tweaked:&lt;br /&gt;
+Joris-Jan van 't Land&lt;br /&gt;
+Killzone_Kid&lt;br /&gt;
+Seth Duda&lt;br /&gt;
+SOLDAT1C&lt;br /&gt;
+Brian Sweeney - [EPD] Brian&lt;br /&gt;
+Whiztler&lt;br /&gt;
+Zooloo75/Stealthstick
+			</English>
+			<Russian>
+Авторы:&lt;br /&gt;
+Dreamcast&lt;br /&gt;
+Katletka&lt;br /&gt;
+Пчёлка=Ъ&lt;br /&gt;
+ZeroAinz&lt;br /&gt;
+&lt;br /&gt;
+Исполльзованы и доработаны скрипты следующих авторов:&lt;br /&gt;
+Joris-Jan van 't Land&lt;br /&gt;
+Killzone_Kid&lt;br /&gt;
+Seth Duda&lt;br /&gt;
+SOLDAT1C&lt;br /&gt;
+Brian Sweeney - [EPD] Brian&lt;br /&gt;
+Whiztler&lt;br /&gt;
+Zooloo75/Stealthstick
+			</Russian>
+	</Key>
+	<Key ID="AF_Diary_3_Head">
+			<Original>---==  Mission description:  ==---</Original>
+			<English>---==  Mission description:  ==---</English>
+			<Russian>---==  Описание миссии:  ==---</Russian>
+	</Key>
+	<Key ID="AF_Diary_3">
+			<Original>
+Main objective: To search and destroy terrorists weapon stashes.&lt;br /&gt;
+Terrorists have hidden weapon stashes all around the map.&lt;br /&gt;Every time at the start of the mission stashes appear in random cities and locations.&lt;br /&gt;
+Stashes can only be in buildings(on different floors, roofs, balconies).&lt;br /&gt;
+&lt;img width='300%' height='300%' image='pictures\rules\cache_icon.paa'&gt;&lt;/img&gt;
+&lt;br /&gt;
+There are cases spread around the map containing info about the nearest weapon stash.&lt;br /&gt;
+&lt;img width='300%' height='300%' image='pictures\rules\intel_icon.paa'&gt;&lt;/img&gt;
+&lt;br /&gt;The more cases you collect the more accurate location of the stash you will have.&lt;br /&gt;
+You have to destroy stash when you locate it.&lt;br /&gt;It is worth mentioning that explosion of the stash can entail 
+death of other players and civilians!&lt;br /&gt;It is recommended to grab the stash and explode it in safe place.&lt;br /&gt;
+&lt;br /&gt;
+You will also face the regular army including ground armored vehicles patrols(BFVs, AA cover, tanks) and aircraft support.
+</Original>
+			<English>
+Main objective: To search and destroy terrorists weapon stashes.&lt;br /&gt;
+Terrorists have hidden weapon stashes all around the map.&lt;br /&gt;Every time at the start of the mission stashes appear in random cities and locations.&lt;br /&gt;
+Stashes can only be in buildings(on different floors, roofs, balconies).&lt;br /&gt;
+&lt;img width='300%' height='300%' image='pictures\rules\cache_icon.paa'&gt;&lt;/img&gt;
+&lt;br /&gt;
+There are cases spread around the map containing info about the nearest weapon stash.&lt;br /&gt;
+&lt;img width='300%' height='300%' image='pictures\rules\intel_icon.paa'&gt;&lt;/img&gt;
+&lt;br /&gt;The more cases you collect the more accurate location of the stash you will have.&lt;br /&gt;
+You have to destroy stash when you locate it.&lt;br /&gt;It is worth mentioning that explosion of the stash can entail 
+death of other players and civilians!&lt;br /&gt;It is recommended to grab the stash and explode it in safe place.&lt;br /&gt;
+&lt;br /&gt;
+You will also face the regular army including ground armored vehicles patrols(BFVs, AA cover, tanks) and aircraft support.
+</English>
+			<Russian>
+Основная цель игры: Поиск и уничтожение схронов оружия боевиков.&lt;br /&gt;
+Боевики по всей карте спрятали схроны с оружием.&lt;br /&gt;Каждый раз при запуске миссии они появляются в разных городах и позициях.&lt;br /&gt;
+Схроны могут быть только в зданиях(на разных этажах,крышах,балконах).&lt;br /&gt;
+&lt;img width='300%' height='300%' image='pictures\rules\cache_icon.paa'&gt;&lt;/img&gt;
+&lt;br /&gt;
+Чтобы быстрее найти местоположение одного из схронов, на карте так же разбросаны кейсы,которые содержат в себе информацию
+о ближайшем схроне.&lt;br /&gt;
+&lt;img width='300%' height='300%' image='pictures\rules\intel_icon.paa'&gt;&lt;/img&gt;
+&lt;br /&gt;Чем больше соберёте кейсов, тем точнее координаты ближайшего схрона вы получите.&lt;br /&gt;
+При обнаружении схрона, вам нужно его уничтожить.&lt;br /&gt;Следует помнить, что подрыв схрона на месте, может повлечь за собой
+смерть других игроков и гражданских лиц!&lt;br /&gt;Рекомендуется вывезти схрон и осуществить подрыв в безопасном месте.&lt;br /&gt;
+&lt;br /&gt;
+Вам так же придётся столкнутся с регулярной армией в виде наземных патрулей тяжёлой техники(бмп,пво,танки) и поддержке с воздуха.
+</Russian>
+	</Key>
+	<Key ID="AF_Diary_2_Head">
+			<Original>---==  Mission features  ==---</Original>
+			<English>---==  Mission features  ==---</English>
+			<Russian>---==  Особенности миссии  ==---</Russian>
+	</Key>
+	<Key ID="AF_Diary_2">
+			<Original>
+When the time is up, the command closes the operation, regardless the results.&lt;br /&gt; 
+If the players do not have time - the mission failed.&lt;br /&gt;
+The time limit is set in the mission parameters before launch(!)&lt;br /&gt;
+&lt;br /&gt;
+There are civilians in cities.&lt;br /&gt;Be careful, some of them may be suicide bombers.&lt;br /&gt;
+You have ~1-2 sec to eliminate bomber after he shouts "Allah Akbar".&lt;br /&gt;
+&lt;br /&gt;
+There can be IEDs (improvised explosive devices) on the roads.&lt;br /&gt;They can be destroyed by any type of weapon..&lt;br /&gt;
+&lt;br /&gt;
+All over the map there are ground and air patrols.&lt;br /&gt;
+Be careful when moving along the roads without air or ground cover.
+</Original>
+			<English>
+When the time is up, the command closes the operation, regardless the results.&lt;br /&gt; 
+If the players do not have time - the mission failed.&lt;br /&gt;
+The time limit is set in the mission parameters before launch(!)&lt;br /&gt;
+&lt;br /&gt;
+There are civilians in cities.&lt;br /&gt;Be careful, some of them may be suicide bombers.&lt;br /&gt;
+You have ~1-2 sec to eliminate bomber after he shouts "Allah Akbar".&lt;br /&gt;
+&lt;br /&gt;
+There can be IEDs (improvised explosive devices) on the roads.&lt;br /&gt;They can be destroyed by any type of weapon..&lt;br /&gt;
+&lt;br /&gt;
+All over the map there are ground and air patrols.&lt;br /&gt;
+Be careful when moving along the roads without air or ground cover.
+</English>
+			<Russian>
+По истечении времени, командование сворачивает операцию независимо от результатов выполнения задачи.&lt;br /&gt; 
+Если игроки не успели - миссия провалена.&lt;br /&gt;
+Лимит времени задаётся в параметрах миссии перед запуском(!)&lt;br /&gt;
+&lt;br /&gt;
+В населённых пунктах присутствуют гражданские.&lt;br /&gt;Будте внимательны, некоторые из них могут оказатся смертинками.&lt;br /&gt;
+У вас есть ~1-2сек что бы ликвидировать шахида после того как произнесёт "Аллах Акбар" предотратив самоподрыв.&lt;br /&gt;
+&lt;br /&gt;
+На дорогах могут быть установлены СВУ(самодельные взрывные устройства).&lt;br /&gt;Они могут быть уничтожены любым видом вооружения.&lt;br /&gt;
+&lt;br /&gt;
+По всей карте присутствуют наземные и воздушные патрули.&lt;br /&gt;
+Будте аккуратны при передвижении по дорогам без прекрытия авиации или бронетехники.
+</Russian>
+	</Key>
+	<Key ID="AF_Diary_1_Head">
+			<Original>---==  Functional  ==---</Original>
+			<English>---==  Functional  ==---</English>
+			<Russian>---==  Функционал  ==---</Russian>
+	</Key>
+	<Key ID="AF_Diary_1">
+			<Original>
+Repair: the map shows the places of service maintenance.&lt;br /&gt;There are 2 kinds of them: For aircrafts and ground vehicles.&lt;br /&gt;
+Ground vehicles (cars, armored personnel carriers, infantry fighting vehicles, tanks) are completely repaired, refuel and replenishes ammunition.&lt;br /&gt;
+Tech. service for aviation contains a specialized module for the re-equipment and repair of aircraft.&lt;br /&gt;
+&lt;br /&gt;
+Rallypoint: Squad leaders can set adiitional respawn point.&lt;br /&gt; 
+When respawning, select "Base" or "Respawn Point", and press OK.&lt;br /&gt;
+Be careful! Teleport from base to respawn pint is not provided.&lt;br /&gt;
+&lt;br /&gt;
+Earplugs: Wear earplugs when you are in or near the vehicle so that it does not interfere with the commander's speach.&lt;br /&gt;
+Press the END key to put on/off the earplugs.&lt;br /&gt;
+&lt;br /&gt;
+Rearming magazines:&lt;br /&gt;
+By default, the keyboard shortcut Ctrl + R will open the magazines rearming menu.&lt;br /&gt;
+&lt;br /&gt;
+View crew members in vehicles:&lt;br /&gt;
+Press the right Alt to display all players in the vehicle.&lt;br /&gt;
+&lt;br /&gt;
+View distance settings:&lt;br /&gt;
+Each player can set the required view distance. Scroll the mouse wheel and select "Settings"
+&lt;br /&gt;
+Towing vehicles:&lt;br /&gt;
+You can use the tow rope to tow various vehicles to the base or to the nearest repairing service.&lt;br /&gt;
+&lt;br /&gt;
+Weapon jamming:&lt;br /&gt;
+If your weapon jammed just reload it(R).&lt;br /&gt;
+&lt;br /&gt;
+Equipment selection:&lt;br /&gt;
+There is a large crate on the base.&lt;br /&gt;Go to it and choose one of the proposed presets, according to your role.&lt;br /&gt;
+Additional ammunition or weapon attachments are provided in the 3D arsenal(check below)&lt;br /&gt;
+&lt;br /&gt;
+3D arsenal:&lt;br /&gt;
+It is intended only for understaffing and additional equipment of your weapon(sights, silencers, bipods, etc.)&lt;br /&gt;
+In the arsenal there is no choice of uniform, vests, helmets, backpacks.
+</Original>
+			<English>
+Repair: the map shows the places of service maintenance.&lt;br /&gt;There are 2 kinds of them: For aircrafts and ground vehicles.&lt;br /&gt;
+Ground vehicles (cars, armored personnel carriers, infantry fighting vehicles, tanks) are completely repaired, refuel and replenishes ammunition.&lt;br /&gt;
+Tech. service for aviation contains a specialized module for the re-equipment and repair of aircraft.&lt;br /&gt;
+&lt;br /&gt;
+Rallypoint: Squad leaders can set adiitional respawn point.&lt;br /&gt; 
+When respawning, select "Base" or "Respawn Point", and press OK.&lt;br /&gt;
+Be careful! Teleport from base to respawn pint is not provided.&lt;br /&gt;
+&lt;br /&gt;
+Earplugs: Wear earplugs when you are in or near the vehicle so that it does not interfere with the commander's speach.&lt;br /&gt;
+Press the END key to put on/off the earplugs.&lt;br /&gt;
+&lt;br /&gt;
+Rearming magazines:&lt;br /&gt;
+By default, the keyboard shortcut Ctrl + R will open the magazines rearming menu.&lt;br /&gt;
+&lt;br /&gt;
+View crew members in vehicles:&lt;br /&gt;
+Press the right Alt to display all players in the vehicle.&lt;br /&gt;
+&lt;br /&gt;
+View distance settings:&lt;br /&gt;
+Each player can set the required view distance. Scroll the mouse wheel and select "Settings"
+&lt;br /&gt;
+Towing vehicles:&lt;br /&gt;
+You can use the tow rope to tow various vehicles to the base or to the nearest repairing service.&lt;br /&gt;
+&lt;br /&gt;
+Weapon jamming:&lt;br /&gt;
+If your weapon jammed just reload it(R).&lt;br /&gt;
+&lt;br /&gt;
+Equipment selection:&lt;br /&gt;
+There is a large crate on the base.&lt;br /&gt;Go to it and choose one of the proposed presets, according to your role.&lt;br /&gt;
+Additional ammunition or weapon attachments are provided in the 3D arsenal(check below)&lt;br /&gt;
+&lt;br /&gt;
+3D arsenal:&lt;br /&gt;
+It is intended only for understaffing and additional equipment of your weapon(sights, silencers, bipods, etc.)&lt;br /&gt;
+In the arsenal there is no choice of uniform, vests, helmets, backpacks.
+</English>
+			<Russian>
+Ремонт: на карте указаны места сервисного обслуживания (СТО).&lt;br /&gt;Есть 2 вида СТО: Для авиации и наземного транспорта.&lt;br /&gt;
+Наземный транспорт(машина,бтр,бмп,танк) полностью ремонтируется,заправляется топливом и пополняет боекомплект.&lt;br /&gt;
+Станция тех. обслуживания для авиации содержит специализированный модуль перевооружения и ремонта авиатехники.&lt;br /&gt;
+&lt;br /&gt;
+Точка респа (rallypoint): Командиры отделений могут ставить дополнительную точку возрождения.&lt;br /&gt; 
+При возрождении выбирете "База" или "Точка возрождения", и нажмите ОК.&lt;br /&gt;
+Будте внимательны! Телепорт с базы на точку возрождения не предусмотрен.&lt;br /&gt;
+&lt;br /&gt;
+Беруши:Одевайте беруши когда находитесь в техните или рядом с ней,чтобы не мешало слышать командира.&lt;br /&gt;
+Нажмите клавишу END для одевания/снятия беруш.&lt;br /&gt;
+&lt;br /&gt;
+Переупаковка магазинов:&lt;br /&gt;
+По умолчанию сочетание клавиш Ctrl+R откроет меню переупаковки магазинов.&lt;br /&gt;
+&lt;br /&gt;
+Просмотр экипажа находящихся в технике:&lt;br /&gt;
+Нажмите правый Alt для отображения всех игроков находящихся в технике.&lt;br /&gt;
+&lt;br /&gt;
+Настройки дальности видимости:&lt;br /&gt;
+Каждый игрок может выставить необходимую дальность видимости. Прокрутите колесо мышки и выбире пункт "Настройки"
+&lt;br /&gt;
+Буксировка техники:&lt;br /&gt;
+Вы можете использовать буксировочный тросс для буксировки различной техники на базу или до ближайшего СТО.&lt;br /&gt;
+&lt;br /&gt;
+Заклинивание стрелкового оружия:&lt;br /&gt;
+Если у вас заклинило стрелковое оружие, просто перезарядите оружие(R).&lt;br /&gt;
+&lt;br /&gt;
+Выбор снаряжения:&lt;br /&gt;
+На базе расположен большой ящик.&lt;br /&gt;Подойдите к нему и выбире один из предложеных пресетов, согласно вашей роли.&lt;br /&gt;
+Дополнительный боезапас или обвес оружия, предусмотрен в 3D арсенале(см. ниже)&lt;br /&gt;
+&lt;br /&gt;
+3D арсенал:&lt;br /&gt;
+Предназначен только для доукомплектования и доп.оснащения важего оружия(прицелы,глушители,сошки и т.д.)&lt;br /&gt;
+В арсенале отсутствует выбор формы,разгрузок,шлемов,рюкзаков.
+</Russian>
+	</Key>
+</package>
+
+<Package name="Kat_Cache_addActions">
+	<Key ID="addActInCarCache">
+			<Original>Put in vehicle</Original>
+			<English>Put in vehicle</English>
+			<Russian>Погрузить в транспорт</Russian>
+	</Key>
+	<Key ID="addActTakeCache">
+			<Original>Take cache</Original>
+			<English>Take cache</English>
+			<Russian>Поднять схрон</Russian>
+	</Key>
+	<Key ID="addActPutDownCache">
+			<Original>Put down cache</Original>
+			<English>Put down cache</English>
+			<Russian>Положить схрон</Russian>
+	</Key>
+	<Key ID="doTookCache">
+			<Original>You took cache</Original>
+			<English>You took cache</English>
+			<Russian>Вы взяли схрон</Russian>
+	</Key>
+	<Key ID="doPutCache">
+			<Original>You put cache</Original>
+			<English>You put cache</English>
+			<Russian>Вы положили схрон</Russian>
+	</Key>
+	<Key ID="noCarCache">
+			<Original>There is no suitable transport nearby</Original>
+			<English>There is no suitable transport nearby</English>
+			<Russian>Рядом нет подходящего транспорта</Russian>
+	</Key>
+	<Key ID="addActFromCarCache">
+			<Original>Unload cache from vehicle</Original>
+			<English>Unload cache from vehicle</English>
+			<Russian>Выгрузить схрон из транспорта</Russian>
+	</Key>
+
+	<Key ID="actInCarCache">
+			<Original>You are loaded cache in vehicle</Original>
+			<English>You are loaded cache in vehicle</English>
+			<Russian>Вы загрузили схрон в транспорт</Russian>
+	</Key>
+	<Key ID="actFromCarCache">
+			<Original>You are unloaded cache from vehicle</Original>
+			<English>You are unloaded cache from vehicle</English>
+			<Russian>Вы выгрузили схрон из транспорта</Russian>
+	</Key>
+	<Key ID="tooManyCache">
+			<Original>Caches are very explosive! You can not carry multiple pieces in one transport</Original>
+			<English>Caches are very explosive! You can not carry multiple pieces in one transport</English>
+			<Russian>Схроны очень взрывоопасны! Нельзя перевозить несколько штук в одном транспорте</Russian>
+	</Key>
+	<Key ID="deadVehCache">
+			<Original>Transport is too damaged, transportation of the cache is impossible</Original>
+			<English>Transport is too damaged, transportation of the cache is impossible</English>
+			<Russian>Транспорт слишком сильно поврежден, перевозска схрона невозможна</Russian>
+	</Key>
+	<Key ID="isTakenCache">
+			<Original>Someone already carries this cache</Original>
+			<English>Someone already carries this cache</English>
+			<Russian>Этот схрон уже кто-то несёт</Russian>
+	</Key>
+	<Key ID="tooManyInfCache">
+			<Original>You can't carry more then one cache</Original>
+			<English>You can't carry more then one cache</English>
+			<Russian>Больше одного схрона вы за раз не унесёте</Russian>
+	</Key>
+</package>
+
+<Package name="AF_paramsText">
+	<Key ID="STR_AF_par_0">
+			<Original>Time of misssion start(h):</Original>
+			<English>Time of misssion start(h):</English>
+			<Russian>Время начала миссии(ч):</Russian>
+	</Key>
+	<Key ID="STR_AF_par_1">
+			<Original>Select weather:</Original>
+			<English>Select weather:</English>
+			<Russian>Выбор погоды:</Russian>
+	</Key>
+	<Key ID="STR_AF_par_2">
+			<Original>Count of the caches:</Original>
+			<English>Count of the caches:</English>
+			<Russian>Количество схронов:</Russian>
+	</Key>
+
+	<Key ID="STR_AF_par_3">
+			<Original>Max count of the active areas:</Original>
+			<English>Max count of the active areas:</English>
+			<Russian>Максимальное количество одновременно активных зон:</Russian>
+	</Key>
+	<Key ID="STR_AF_par_4">
+			<Original>Time for destroy all caches(h):</Original>
+			<English>Time for destroy all caches(h):</English>
+			<Russian>Время на уничтожение всех схронов(ч):</Russian>
+	</Key>
+	<Key ID="STR_AF_par_5">
+			<Original>Markers on the map:</Original>
+			<English>Markers on the map:</English>
+			<Russian>Маркеры на карте:</Russian>
+	</Key>
+	<Key ID="STR_AF_par_6">
+			<Original>Distance of enemy spawn(m):</Original>
+			<English>Distance of enemy spawn(m):</English>
+			<Russian>Дистанция респауна противника(м):</Russian>
+	</Key>
+	<Key ID="STR_AF_par_7">
+			<Original>Maximum tickets of the attacking side:</Original>
+			<English>Maximum tickets of the attacking side:</English>
+			<Russian>Максимальное количество очков потерь атакующей стороны:</Russian>
+	</Key>
+	<Key ID="STR_AF_par_8">
+			<Original>Max count of the civilians deaths:</Original>
+			<English>Max count of the civilians deaths:</English>
+			<Russian>Максимальное количество смертей среди гражданских:</Russian>
+	</Key>
+	<Key ID="STR_AF_par_9">
+			<Original></Original>
+			<English></English>
+			<Russian><Key ID="STR_AF_par_9">
+			<Original>Choise of enemy side (zones):</Original>
+			<English>Choise of enemy side (zones):</English>
+			<Russian>Выбор стороны противника в зонах:</Russian>
+	</Key>
+	<Key ID="STR_AF_par_10">
+			<Original>Select of enemy side (patrols):</Original>
+			<English>Select of enemy side (patrols):</English>
+			<Russian>Выбор стороны противника в патрулях:</Russian>
+	</Key>
+	<Key ID="STR_AF_par_11">
+			<Original>Count of enemy infantry:</Original>
+			<English>Count of enemy infantry:</English>
+			<Russian>Количество пехоты противника:</Russian>
+	</Key>
+	<Key ID="STR_AF_par_12">
+			<Original>Static guns:</Original>
+			<English>Static guns:</English>
+			<Russian>Статичные орудия:</Russian>
+	</Key>
+	<Key ID="STR_AF_par_13">
+			<Original>Count of ground patrol:</Original>
+			<English>Count of ground patrol:</English>
+			<Russian>Количество наземного патруля:</Russian>
+	</Key>
+	<Key ID="STR_AF_par_14">
+			<Original>Count of enemy air patrol:</Original>
+			<English>Count of enemy air patrol:</English>
+			<Russian>Количество воздушного патруля:</Russian>
+	</Key>
+	<Key ID="STR_AF_par_15">
+			<Original>Select type of enemy air patrol:</Original>
+			<English>Select type of enemy air patrol:</English>
+			<Russian>Выбор типа воздушного патруля противника:</Russian>
+	</Key>
+	<Key ID="STR_AF_par_16">
+			<Original>Enemy air patrol mode:</Original>
+			<English>Enemy air patrol mode:</English>
+			<Russian>Режим воздушного патруля противника:</Russian>
+	</Key>
+	<Key ID="STR_AF_par_17">
+			<Original>Time for enemy air patrols respawn(m):</Original>
+			<English>Time for enemy air patrols respawn(m):</English>
+			<Russian>Время возрождения воздушного патруля(м):</Russian>
+	</Key>
+	<Key ID="STR_AF_par_18">
+			<Original>Civilians:</Original>
+			<English>Civilians:</English>
+			<Russian>Гражданские:</Russian>
+	</Key>
+	<Key ID="STR_AF_par_19">
+			<Original>Civilians - bombers:</Original>
+			<English>Civilians - bombers:</English>
+			<Russian>Смертники среди гражданских:</Russian>
+	</Key>
+	<Key ID="STR_AF_par_20">
+			<Original>Second side for players:</Original>
+			<English>Second side for players:</English>
+			<Russian>Вторая сторона для игроков:</Russian>
+	</Key>
+	<Key ID="STR_AF_par_21">
+			<Original>(DEBUG) Debug mode of units in zones:</Original>
+			<English>(DEBUG) Debug mode of units in zones:</English>
+			<Russian>(DEBUG) Режим отладки юнитов в зонах:</Russian>
+	</Key>
+	<Key ID="STR_AF_par_22">
+			<Original>(DEBUG) Show caches on the map:</Original>
+			<English>(DEBUG) Show caches on the map:</English>
+			<Russian>(DEBUG) Отображение схронов на карте:</Russian>
+	</Key>
+	<Key ID="STR_AF_par_23">
+			<Original>(DEBUG) Show intels on the map:</Original>
+			<English>(DEBUG) Show intels on the map:</English>
+			<Russian>(DEBUG) Отображение разведданных на карте:</Russian>
+	</Key>
+	<Key ID="STR_AF_par_24">
+			<Original>(DEBUG) Show all units on the map:</Original>
+			<English>(DEBUG) Show all units on the map:</English>
+			<Russian>(DEBUG) Отображение всех юнитов на карте:</Russian>
+	</Key>
+	<Key ID="STR_AF_par_25">
+			<Original>(DEBUG) Show all mines on the map:</Original>
+			<English>(DEBUG) Show all mines on the map:</English>
+			<Russian>(DEBUG) Отображение всех мин на карте:</Russian>
+	</Key>
+	<Key ID="STR_AF_par_on">
+			<Original>On</Original>
+			<English>On</English>
+			<Russian>Вкл.</Russian>
+	</Key>
+	<Key ID="STR_AF_par_off">
+			<Original>Off</Original>
+			<English>Off</English>
+			<Russian>Выкл.</Russian>
+	</Key>
+	<Key ID="STR_AF_par_unlimited">
+			<Original>Unlimited</Original>
+			<English>Unlimited</English>
+			<Russian>Неограниченно</Russian>
+	</Key>
+	<Key ID="STR_AF_par_few">
+			<Original>Few</Original>
+			<English>Few</English>
+			<Russian>Мало</Russian>
+	</Key>
+	<Key ID="STR_AF_par_middling">
+			<Original>Middling</Original>
+			<English>Middling</English>
+			<Russian>Средне</Russian>
+	</Key>
+	<Key ID="STR_AF_par_many">
+			<Original>Many</Original>
+			<English>Many</English>
+			<Russian>Много</Russian>
+	</Key>
+	<Key ID="STR_AF_par_weather_random">
+			<Original>Random</Original>
+			<English>Random</English>
+			<Russian>Случайно</Russian>
+	</Key>
+	<Key ID="STR_AF_par_weather_clear">
+			<Original>Clear</Original>
+			<English>Clear</English>
+			<Russian>Ясно</Russian>
+	</Key>
+	<Key ID="STR_AF_par_weather_cloudy">
+			<Original>Cloudy</Original>
+			<English>Cloudy</English>
+			<Russian>Облачно</Russian>
+	</Key>
+	<Key ID="STR_AF_par_weather_overcast">
+			<Original>Overcast</Original>
+			<English>Overcast</English>
+			<Russian>Сильная облачность</Russian>
+	</Key>
+	<Key ID="STR_AF_par_weather_rain">
+			<Original>Rain</Original>
+			<English>Rain</English>
+			<Russian>Дождь</Russian>
+	</Key>
+	<Key ID="STR_AF_par_weather_storm">
+			<Original>Storm</Original>
+			<English>Storm</English>
+			<Russian>Шторм</Russian>
+	</Key>
+	<Key ID="STR_AF_par_side_independed">
+			<Original>Independed FIA(BIS)</Original>
+			<English>Independed FIA(BIS)</English>
+			<Russian>Независимые FIA(BIS)</Russian>
+	</Key>
+	<Key ID="STR_AF_par_side_rf">
+			<Original>Army RF(RHS)</Original>
+			<English>Army RF(RHS)</English>
+			<Russian>Армия РФ(RHS)</Russian>
+	</Key>
+	<Key ID="STR_AF_par_side_rebels">
+			<Original>The rebels(RHS)</Original>
+			<English>The rebels(RHS)</English>
+			<Russian>Повстанцы(RHS)</Russian>
+	</Key>
+	<Key ID="STR_AF_par_side_takMils">
+			<Original>Takistani militants(CUP)</Original>
+			<English>Takistani militants(CUP)</English>
+			<Russian>Такистанские боевики(CUP)</Russian>
+	</Key>
+	<Key ID="STR_AF_par_air_uav">
+			<Original>Helicopters and UAV</Original>
+			<English>Helicopters and UAV</English>
+			<Russian>Вертолеты и БПЛА</Russian>
+	</Key>
+	<Key ID="STR_AF_par_air_planes">
+			<Original>Planes</Original>
+			<English>Planes</English>
+			<Russian>Самолеты</Russian>
+	</Key>
+	<Key ID="STR_AF_par_air_planesUav">
+			<Original>Helicopters, UAV and planes</Original>
+			<English>Helicopters, UAV and planes</English>
+			<Russian>Вертолеты, БПЛА и самолеты</Russian>
+	</Key>
+	<Key ID="STR_AF_par_findDestroy">
+			<Original>Find and destroy</Original>
+			<English>Find and destroy</English>
+			<Russian>Найти и уничтожить</Russian>
+	</Key>
+	<Key ID="STR_AF_par_terrProt">
+			<Original>Territory protection</Original>
+			<English>Territory protection</English>
+			<Russian>Охрана территории</Russian>
+	</Key>
+</package>
+<Key ID="AF_iguiCIVs">
+		<Original>Civilian casualties:</Original>
+		<English>Civilian casualties:</English>
+		<Russian>Потери гражданских:</Russian>
+</Key>
+<Key ID="AF_iguiPs">
+		<Original>Attack tickets:</Original>
+		<English>Attack tickets:</English>
+		<Russian>Очки потерь атакующих:</Russian>
+</Key>
+<Key ID="AF_iguiCaches">
+		<Original>Caches destroyed:</Original>
+		<English>Caches destroyed:</English>
+		<Russian>Уничтожено схронов:</Russian>
+</Key>
+<Key ID="AF_welcome">
+		<Original>Welcome,</Original>
+		<English>Welcome,</English>
+		<Russian>Добро пожаловать,</Russian>
+</Key>
+<Key ID="AF_cacheKilled">
+		<Original>One cache has been destroyed</Original>
+		<English>One cache has been destroyed</English>
+		<Russian>Уничтожен один из схоронов боевиков</Russian>
+</Key>
+
+
+
+
+<Package name="Kat_strategic_zones">
+	<Key ID="AF_stratZone">
+			<Original>Strategic facility</Original>
+			<English>Strategic facility</English>
+			<Russian>Стратегический объект</Russian>
+	</Key>
+	<Key ID="AF_stratZoneCaptured">
+			<Original>captured</Original>
+			<English>captured</English>
+			<Russian>захвачен</Russian>
+	</Key>
+	<Key ID="AF_stratZoneCapturedDis1">
+			<Original>now you can pick up trophies and move on.</Original>
+			<English>now you can pick up trophies and move on.</English>
+			<Russian>теперь можно забрать трофеи и двигаться дальше.</Russian>
+	</Key>
+	<Key ID="AF_stratZoneCapturedDis2">
+			<Original>The command is once again convinced of the need for our presence</Original>
+			<English>The command is once again convinced of the need for our presence</English>
+			<Russian>Командование в очередной раз убедилось в необходимости нашего присутствия</Russian>
+	</Key>
+	<Key ID="AF_stratZoneFail">
+			<Original>destroyed</Original>
+			<English>destroyed</English>
+			<Russian>уничтожен</Russian>
+	</Key>
+	<Key ID="AF_stratZoneFailDis">
+			<Original>the command would be more loyal to us if we succeed...</Original>
+			<English>the command would be more loyal to us if we succeed...</English>
+			<Russian>командование могло бы быть к нам более лояльным в случае успеха...</Russian>
+	</Key>
+	<Key ID="AF_stratZoneFounded">
+			<Original>founded</Original>
+			<English>founded</English>
+			<Russian>найден</Russian>
+	</Key>
+	<Key ID="AF_stratZoneFoundedDis">
+			<Original>it needs to be captured!</Original>
+			<English>it needs to be captured!</English>
+			<Russian>его необходимо захватить!</Russian>
+	</Key>
+</package>
+
+<Package name="Kat_random_killed">
+	<Key ID="AF_killed_r1">
+			<Original>dispose of civil&lt;br /&gt;</Original>
+			<Russian>избавился от гражданского&lt;br /&gt;</Russian>
+	</Key>
+	<Key ID="AF_killed_r2">
+			<Original>unceremoniously killed a civilian&lt;br /&gt;</Original>
+			<Russian>бесцеремонно убил гражданского&lt;br /&gt;</Russian>
+	</Key>
+	<Key ID="AF_killed_r3">
+			<Original>guilty of civilian death&lt;br /&gt;</Original>
+			<Russian>повинен в смерти гражданского&lt;br /&gt;</Russian>
+	</Key>
+	<Key ID="AF_killed_r4">
+			<Original>left a peaceful family without&lt;br /&gt;</Original>
+			<Russian>оставил мирную семью без&lt;br /&gt;</Russian>
+	</Key>
+</package>
+
+<Key ID="AF_teamKilled">
+	<Original>killed an ally</Original>
+	<Russian>убил своего</Russian>
+</Key>
+
+<Key ID="AF_teamKilled_instigator">
+	<Original>For killing yor TEAMMATE, you are fined 120 seconds at the time of the next respawn</Original>
+	<Russian>За убийство СВОЕГО вам назначен штраф в размере 120 секунд ко времени следующего появления</Russian>
+</Key>
+
+<Key ID="AF_civilKilled_instigator">
+	<Original>For killing CIVILIAN, you are fined 120 seconds at the time of the next respawn</Original>
+	<Russian>За убийство ГРАЖДАНСКОГО вам назначен штраф в размере 120 секунд ко времени следующего появления</Russian>
+</Key>
+
+<Package name="Kat_second_side">
+	<Key ID="AF_ss_outOfZone">
+			<Original>&lt;t color='#FF0000'&gt;You are leaving the battlefield!&lt;/t&gt;&lt;br/&gt;you have &lt;t color='#FF0000'&gt;30 seconds&lt;/t&gt; to return</Original>
+			<Russian>&lt;t color='#FF0000'&gt;Вы покидаете поле боя!&lt;/t&gt;&lt;br/&gt;у вас есть &lt;t color='#FF0000'&gt;30 секунд&lt;/t&gt; чтобы вернуться обратно</Russian>
+	</Key>
+</package>
+
+<Package name="Kat_second_side_respawn">
+	<Key ID="AF_ssr_notNow">
+			<Original>Respawn currently not available</Original>
+			<Russian>В данный момент появление вам не доступно</Russian>
+	</Key>
+	<Key ID="AF_ssr_fewSeconds_1">
+			<Original>Respawn will be available in&lt;br /&gt;</Original>
+			<Russian>Появление будет доступно через&lt;br /&gt;</Russian>
+	</Key>
+	<Key ID="AF_ssr_fewSeconds_2">
+			<Original> sec.</Original>
+			<Russian> сек.</Russian>
+	</Key>
+	<Key ID="AF_ssr_noUnitsAvailable">
+			<Original>There are currently no units available for deployment in this area</Original>
+			<Russian>В данной зоне сейчас нет доступных юнитов для вселения</Russian>
+	</Key>
+</package>
+
+<Key ID="AF_intel_founded_str">
+	<Original>found intelligence.</Original>
+	<Russian>нашел разведданные.</Russian>
+</Key>
